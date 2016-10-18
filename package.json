@@ -1,6 +1,6 @@
 {
   "name": "alfred-aws",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Search through the AWS JavaScript SDK",
   "license": "MIT",
   "repository": "SamVerschueren/alfred-aws",
