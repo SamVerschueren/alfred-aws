@@ -15,15 +15,16 @@ const checkIcons = apis => {
 			.catch(err => {
 				if (err.code === 'ENOENT') {
 					console.log(`Icon \`${api.icon}.png\` for service \`${api.service}\` could not be found`);
+					api.icon = 'aws';
 				} else {
 					console.log(err);
 				}
 			});
 	});
 
-	return Promise.all(promises);
+	return Promise.all(promises).then(() => apis);
 };
 
 aws.apis()
-	.then(apis => checkIcons(apis).then(() => apis))
+	.then(apis => checkIcons(apis))
 	.then(apis => fsP.writeFile('data.json', JSON.stringify(apis, undefined, '	')));

@@ -1521,19 +1521,19 @@
 		"name": "search",
 		"service": "CloudSearchDomain",
 		"serviceFullName": "CloudSearch Domain",
-		"icon": "CloudSearchDomain"
+		"icon": "aws"
 	},
 	{
 		"name": "suggest",
 		"service": "CloudSearchDomain",
 		"serviceFullName": "CloudSearch Domain",
-		"icon": "CloudSearchDomain"
+		"icon": "aws"
 	},
 	{
 		"name": "uploadDocuments",
 		"service": "CloudSearchDomain",
 		"serviceFullName": "CloudSearch Domain",
-		"icon": "CloudSearchDomain"
+		"icon": "aws"
 	},
 	{
 		"name": "addTags",
@@ -3267,61 +3267,61 @@
 		"name": "createTags",
 		"service": "ApplicationDiscoveryService",
 		"serviceFullName": "Application Discovery Service",
-		"icon": "ApplicationDiscoveryService"
+		"icon": "aws"
 	},
 	{
 		"name": "deleteTags",
 		"service": "ApplicationDiscoveryService",
 		"serviceFullName": "Application Discovery Service",
-		"icon": "ApplicationDiscoveryService"
+		"icon": "aws"
 	},
 	{
 		"name": "describeAgents",
 		"service": "ApplicationDiscoveryService",
 		"serviceFullName": "Application Discovery Service",
-		"icon": "ApplicationDiscoveryService"
+		"icon": "aws"
 	},
 	{
 		"name": "describeConfigurations",
 		"service": "ApplicationDiscoveryService",
 		"serviceFullName": "Application Discovery Service",
-		"icon": "ApplicationDiscoveryService"
+		"icon": "aws"
 	},
 	{
 		"name": "describeExportConfigurations",
 		"service": "ApplicationDiscoveryService",
 		"serviceFullName": "Application Discovery Service",
-		"icon": "ApplicationDiscoveryService"
+		"icon": "aws"
 	},
 	{
 		"name": "describeTags",
 		"service": "ApplicationDiscoveryService",
 		"serviceFullName": "Application Discovery Service",
-		"icon": "ApplicationDiscoveryService"
+		"icon": "aws"
 	},
 	{
 		"name": "exportConfigurations",
 		"service": "ApplicationDiscoveryService",
 		"serviceFullName": "Application Discovery Service",
-		"icon": "ApplicationDiscoveryService"
+		"icon": "aws"
 	},
 	{
 		"name": "listConfigurations",
 		"service": "ApplicationDiscoveryService",
 		"serviceFullName": "Application Discovery Service",
-		"icon": "ApplicationDiscoveryService"
+		"icon": "aws"
 	},
 	{
 		"name": "startDataCollectionByAgentIds",
 		"service": "ApplicationDiscoveryService",
 		"serviceFullName": "Application Discovery Service",
-		"icon": "ApplicationDiscoveryService"
+		"icon": "aws"
 	},
 	{
 		"name": "stopDataCollectionByAgentIds",
 		"service": "ApplicationDiscoveryService",
 		"serviceFullName": "Application Discovery Service",
-		"icon": "ApplicationDiscoveryService"
+		"icon": "aws"
 	},
 	{
 		"name": "addTagsToResource",
@@ -7953,37 +7953,37 @@
 		"name": "cancelJob",
 		"service": "Import/Export",
 		"serviceFullName": "Import/Export",
-		"icon": "ImportExport"
+		"icon": "aws"
 	},
 	{
 		"name": "createJob",
 		"service": "Import/Export",
 		"serviceFullName": "Import/Export",
-		"icon": "ImportExport"
+		"icon": "aws"
 	},
 	{
 		"name": "getShippingLabel",
 		"service": "Import/Export",
 		"serviceFullName": "Import/Export",
-		"icon": "ImportExport"
+		"icon": "aws"
 	},
 	{
 		"name": "getStatus",
 		"service": "Import/Export",
 		"serviceFullName": "Import/Export",
-		"icon": "ImportExport"
+		"icon": "aws"
 	},
 	{
 		"name": "listJobs",
 		"service": "Import/Export",
 		"serviceFullName": "Import/Export",
-		"icon": "ImportExport"
+		"icon": "aws"
 	},
 	{
 		"name": "updateJob",
 		"service": "Import/Export",
 		"serviceFullName": "Import/Export",
-		"icon": "ImportExport"
+		"icon": "aws"
 	},
 	{
 		"name": "addAttributesToFindings",
@@ -9381,19 +9381,19 @@
 		"name": "generateDataSet",
 		"service": "MarketplaceCommerceAnalytics",
 		"serviceFullName": "Marketplace Commerce Analytics",
-		"icon": "MarketplaceCommerceAnalytics"
+		"icon": "aws"
 	},
 	{
 		"name": "startSupportDataExport",
 		"service": "MarketplaceCommerceAnalytics",
 		"serviceFullName": "Marketplace Commerce Analytics",
-		"icon": "MarketplaceCommerceAnalytics"
+		"icon": "aws"
 	},
 	{
 		"name": "meterUsage",
 		"service": "MarketplaceMetering",
 		"serviceFullName": "Marketplace Metering",
-		"icon": "MarketplaceMetering"
+		"icon": "aws"
 	},
 	{
 		"name": "putEvents",
@@ -11553,61 +11553,61 @@
 		"name": "batchDeleteAttributes",
 		"service": "SimpleDB",
 		"serviceFullName": "SimpleDB",
-		"icon": "SimpleDB"
+		"icon": "aws"
 	},
 	{
 		"name": "batchPutAttributes",
 		"service": "SimpleDB",
 		"serviceFullName": "SimpleDB",
-		"icon": "SimpleDB"
+		"icon": "aws"
 	},
 	{
 		"name": "createDomain",
 		"service": "SimpleDB",
 		"serviceFullName": "SimpleDB",
-		"icon": "SimpleDB"
+		"icon": "aws"
 	},
 	{
 		"name": "deleteAttributes",
 		"service": "SimpleDB",
 		"serviceFullName": "SimpleDB",
-		"icon": "SimpleDB"
+		"icon": "aws"
 	},
 	{
 		"name": "deleteDomain",
 		"service": "SimpleDB",
 		"serviceFullName": "SimpleDB",
-		"icon": "SimpleDB"
+		"icon": "aws"
 	},
 	{
 		"name": "domainMetadata",
 		"service": "SimpleDB",
 		"serviceFullName": "SimpleDB",
-		"icon": "SimpleDB"
+		"icon": "aws"
 	},
 	{
 		"name": "getAttributes",
 		"service": "SimpleDB",
 		"serviceFullName": "SimpleDB",
-		"icon": "SimpleDB"
+		"icon": "aws"
 	},
 	{
 		"name": "listDomains",
 		"service": "SimpleDB",
 		"serviceFullName": "SimpleDB",
-		"icon": "SimpleDB"
+		"icon": "aws"
 	},
 	{
 		"name": "putAttributes",
 		"service": "SimpleDB",
 		"serviceFullName": "SimpleDB",
-		"icon": "SimpleDB"
+		"icon": "aws"
 	},
 	{
 		"name": "select",
 		"service": "SimpleDB",
 		"serviceFullName": "SimpleDB",
-		"icon": "SimpleDB"
+		"icon": "aws"
 	},
 	{
 		"name": "describeProduct",
@@ -12027,157 +12027,157 @@
 		"name": "addTagsToResource",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "cancelCommand",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "createActivation",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "createAssociation",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "createAssociationBatch",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "createDocument",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "deleteActivation",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "deleteAssociation",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "deleteDocument",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "deregisterManagedInstance",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "describeActivations",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "describeAssociation",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "describeDocument",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "describeDocumentPermission",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "describeInstanceInformation",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "getDocument",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "listAssociations",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "listCommandInvocations",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "listCommands",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "listDocuments",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "listTagsForResource",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "modifyDocumentPermission",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "removeTagsFromResource",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "sendCommand",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "updateAssociationStatus",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "updateManagedInstanceRole",
 		"service": "SSM",
 		"serviceFullName": "Simple Systems Management Service",
-		"icon": "SSM"
+		"icon": "aws"
 	},
 	{
 		"name": "activateGateway",
@@ -12585,85 +12585,85 @@
 		"name": "addAttachmentsToSet",
 		"service": "Support",
 		"serviceFullName": "Support",
-		"icon": "Support"
+		"icon": "aws"
 	},
 	{
 		"name": "addCommunicationToCase",
 		"service": "Support",
 		"serviceFullName": "Support",
-		"icon": "Support"
+		"icon": "aws"
 	},
 	{
 		"name": "createCase",
 		"service": "Support",
 		"serviceFullName": "Support",
-		"icon": "Support"
+		"icon": "aws"
 	},
 	{
 		"name": "describeAttachment",
 		"service": "Support",
 		"serviceFullName": "Support",
-		"icon": "Support"
+		"icon": "aws"
 	},
 	{
 		"name": "describeCases",
 		"service": "Support",
 		"serviceFullName": "Support",
-		"icon": "Support"
+		"icon": "aws"
 	},
 	{
 		"name": "describeCommunications",
 		"service": "Support",
 		"serviceFullName": "Support",
-		"icon": "Support"
+		"icon": "aws"
 	},
 	{
 		"name": "describeServices",
 		"service": "Support",
 		"serviceFullName": "Support",
-		"icon": "Support"
+		"icon": "aws"
 	},
 	{
 		"name": "describeSeverityLevels",
 		"service": "Support",
 		"serviceFullName": "Support",
-		"icon": "Support"
+		"icon": "aws"
 	},
 	{
 		"name": "describeTrustedAdvisorCheckRefreshStatuses",
 		"service": "Support",
 		"serviceFullName": "Support",
-		"icon": "Support"
+		"icon": "aws"
 	},
 	{
 		"name": "describeTrustedAdvisorCheckResult",
 		"service": "Support",
 		"serviceFullName": "Support",
-		"icon": "Support"
+		"icon": "aws"
 	},
 	{
 		"name": "describeTrustedAdvisorCheckSummaries",
 		"service": "Support",
 		"serviceFullName": "Support",
-		"icon": "Support"
+		"icon": "aws"
 	},
 	{
 		"name": "describeTrustedAdvisorChecks",
 		"service": "Support",
 		"serviceFullName": "Support",
-		"icon": "Support"
+		"icon": "aws"
 	},
 	{
 		"name": "refreshTrustedAdvisorCheck",
 		"service": "Support",
 		"serviceFullName": "Support",
-		"icon": "Support"
+		"icon": "aws"
 	},
 	{
 		"name": "resolveCase",
 		"service": "Support",
 		"serviceFullName": "Support",
-		"icon": "Support"
+		"icon": "aws"
 	},
 	{
 		"name": "countClosedWorkflowExecutions",
