@@ -26,6 +26,8 @@ Press <kbd>Shift</kbd> to view the documentaion in Quick Look.
 
 - [alfred-ng2](https://github.com/SamVerschueren/alfred-ng2) - Search for Angular 2 API references
 - [alfred-npms](https://github.com/sindresorhus/alfred-npms) - Search for npm packages with npms.io
+- [alfred-font-awesome](https://github.com/SamVerschueren/alfred-font-awesome) - Search for font-awesome icons
+- [alfy](https://github.com/sindresorhus/alfy) - Create Alfred workflows with ease
 
 
 ## License
