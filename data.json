@@ -9888,6 +9888,12 @@
 		"icon": "OpsWorks"
 	},
 	{
+		"name": "addRoleToDBCluster",
+		"service": "RDS",
+		"serviceFullName": "Relational Database Service",
+		"icon": "RDS"
+	},
+	{
 		"name": "addSourceIdentifierToSubscription",
 		"service": "RDS",
 		"serviceFullName": "Relational Database Service",
@@ -10327,6 +10333,12 @@
 	},
 	{
 		"name": "rebootDBInstance",
+		"service": "RDS",
+		"serviceFullName": "Relational Database Service",
+		"icon": "RDS"
+	},
+	{
+		"name": "removeRoleFromDBCluster",
 		"service": "RDS",
 		"serviceFullName": "Relational Database Service",
 		"icon": "RDS"
