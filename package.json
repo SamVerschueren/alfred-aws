@@ -14,14 +14,15 @@
   },
   "scripts": {
     "test": "xo && ava",
-    "postinstall": "alfy-init"
+    "postinstall": "alfy-init",
+    "prepublish": "./make.js"
   },
   "files": [
     "index.js",
+    "data.json",
     "icon.png",
     "info.plist",
-    "icons",
-    "lib"
+    "icons"
   ],
   "keywords": [
     "alfred",
@@ -32,13 +33,13 @@
     "productivity"
   ],
   "dependencies": {
-    "alfy": "^0.5.0",
-    "aws-sdk": "^2.6.9",
-    "pify": "^2.3.0"
+    "alfy": "^0.5.0"
   },
   "devDependencies": {
     "alfy-test": "^0.3.0",
     "ava": "*",
+    "aws-sdk": "^2.6.9",
+    "pify": "^2.3.0",
     "xo": "*"
   },
   "xo": {
