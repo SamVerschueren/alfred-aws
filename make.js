@@ -2,6 +2,7 @@
 'use strict';
 const fs = require('fs');
 const pify = require('pify');
+const pathExists = require('path-exists');
 const aws = require('./lib/aws');
 
 const fsP = pify(fs);
@@ -11,13 +12,11 @@ const fsP = pify(fs);
  */
 const checkIcons = apis => {
 	const promises = apis.map(api => {
-		return fsP.lstat(`icons/${api.icon}.png`)
-			.catch(err => {
-				if (err.code === 'ENOENT') {
+		return pathExists(`icons/${api.icon}.png`)
+			.then(exists => {
+				if (!exists) {
 					console.log(`Icon \`${api.icon}.png\` for service \`${api.service}\` could not be found`);
 					api.icon = 'aws';
-				} else {
-					console.log(err);
 				}
 			});
 	});
