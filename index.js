@@ -1,5 +1,6 @@
 'use strict';
 const alfy = require('alfy');
+const stringOccurrence = require('string-occurrence');
 const data = require('./data');
 
 const items = data.map(api => {
@@ -9,7 +10,7 @@ const items = data.map(api => {
 		title: api.name,
 		autocomplete: api.name,
 		subtitle: api.serviceFullName,
-		metatitle: api.service,
+		keywords: api.keywords,
 		arg: url,
 		quicklookurl: url,
 		icon: {
@@ -18,8 +19,16 @@ const items = data.map(api => {
 	};
 });
 
-const matchingStrategy = (item, input) => {
-	return item.title.toLowerCase().includes(input) || item.metatitle.toLowerCase().includes(input);
+const matcher = (input, items) => {
+	const tokens = input.trim().toLowerCase().split(' ');
+
+	const result = items.filter(item => {
+		item.count = stringOccurrence(item.keywords, tokens);
+
+		return item.count > 0;
+	});
+
+	return result.sort((a, b) => b.count - a.count);
 };
 
-alfy.output(alfy.matches(alfy.input, items, matchingStrategy));
+alfy.output(matcher(alfy.input, items));
