@@ -1106,6 +1106,97 @@
 		"keywords": "AutoScaling updateAutoScalingGroup Auto Scaling"
 	},
 	{
+		"name": "createBudget",
+		"service": "Budgets",
+		"serviceFullName": "Budgets",
+		"icon": "aws",
+		"keywords": "Budgets createBudget Budgets"
+	},
+	{
+		"name": "createNotification",
+		"service": "Budgets",
+		"serviceFullName": "Budgets",
+		"icon": "aws",
+		"keywords": "Budgets createNotification Budgets"
+	},
+	{
+		"name": "createSubscriber",
+		"service": "Budgets",
+		"serviceFullName": "Budgets",
+		"icon": "aws",
+		"keywords": "Budgets createSubscriber Budgets"
+	},
+	{
+		"name": "deleteBudget",
+		"service": "Budgets",
+		"serviceFullName": "Budgets",
+		"icon": "aws",
+		"keywords": "Budgets deleteBudget Budgets"
+	},
+	{
+		"name": "deleteNotification",
+		"service": "Budgets",
+		"serviceFullName": "Budgets",
+		"icon": "aws",
+		"keywords": "Budgets deleteNotification Budgets"
+	},
+	{
+		"name": "deleteSubscriber",
+		"service": "Budgets",
+		"serviceFullName": "Budgets",
+		"icon": "aws",
+		"keywords": "Budgets deleteSubscriber Budgets"
+	},
+	{
+		"name": "describeBudget",
+		"service": "Budgets",
+		"serviceFullName": "Budgets",
+		"icon": "aws",
+		"keywords": "Budgets describeBudget Budgets"
+	},
+	{
+		"name": "describeBudgets",
+		"service": "Budgets",
+		"serviceFullName": "Budgets",
+		"icon": "aws",
+		"keywords": "Budgets describeBudgets Budgets"
+	},
+	{
+		"name": "describeNotificationsForBudget",
+		"service": "Budgets",
+		"serviceFullName": "Budgets",
+		"icon": "aws",
+		"keywords": "Budgets describeNotificationsForBudget Budgets"
+	},
+	{
+		"name": "describeSubscribersForNotification",
+		"service": "Budgets",
+		"serviceFullName": "Budgets",
+		"icon": "aws",
+		"keywords": "Budgets describeSubscribersForNotification Budgets"
+	},
+	{
+		"name": "updateBudget",
+		"service": "Budgets",
+		"serviceFullName": "Budgets",
+		"icon": "aws",
+		"keywords": "Budgets updateBudget Budgets"
+	},
+	{
+		"name": "updateNotification",
+		"service": "Budgets",
+		"serviceFullName": "Budgets",
+		"icon": "aws",
+		"keywords": "Budgets updateNotification Budgets"
+	},
+	{
+		"name": "updateSubscriber",
+		"service": "Budgets",
+		"serviceFullName": "Budgets",
+		"icon": "aws",
+		"keywords": "Budgets updateSubscriber Budgets"
+	},
+	{
 		"name": "cancelUpdateStack",
 		"service": "CloudFormation",
 		"serviceFullName": "CloudFormation",
@@ -1230,6 +1321,13 @@
 		"serviceFullName": "CloudFormation",
 		"icon": "CloudFormation",
 		"keywords": "CloudFormation listChangeSets CloudFormation"
+	},
+	{
+		"name": "listExports",
+		"service": "CloudFormation",
+		"serviceFullName": "CloudFormation",
+		"icon": "CloudFormation",
+		"keywords": "CloudFormation listExports CloudFormation"
 	},
 	{
 		"name": "listStackResources",
@@ -3794,6 +3892,13 @@
 		"keywords": "DirectConnect describeLocations Direct Connect"
 	},
 	{
+		"name": "describeTags",
+		"service": "DirectConnect",
+		"serviceFullName": "Direct Connect",
+		"icon": "DirectConnect",
+		"keywords": "DirectConnect describeTags Direct Connect"
+	},
+	{
 		"name": "describeVirtualGateways",
 		"service": "DirectConnect",
 		"serviceFullName": "Direct Connect",
@@ -3806,6 +3911,20 @@
 		"serviceFullName": "Direct Connect",
 		"icon": "DirectConnect",
 		"keywords": "DirectConnect describeVirtualInterfaces Direct Connect"
+	},
+	{
+		"name": "tagResource",
+		"service": "DirectConnect",
+		"serviceFullName": "Direct Connect",
+		"icon": "DirectConnect",
+		"keywords": "DirectConnect tagResource Direct Connect"
+	},
+	{
+		"name": "untagResource",
+		"service": "DirectConnect",
+		"serviceFullName": "Direct Connect",
+		"icon": "DirectConnect",
+		"keywords": "DirectConnect untagResource Direct Connect"
 	},
 	{
 		"name": "createTags",
@@ -7504,6 +7623,20 @@
 		"keywords": "SES cloneReceiptRuleSet Simple Email Service"
 	},
 	{
+		"name": "createConfigurationSet",
+		"service": "SES",
+		"serviceFullName": "Simple Email Service",
+		"icon": "SES",
+		"keywords": "SES createConfigurationSet Simple Email Service"
+	},
+	{
+		"name": "createConfigurationSetEventDestination",
+		"service": "SES",
+		"serviceFullName": "Simple Email Service",
+		"icon": "SES",
+		"keywords": "SES createConfigurationSetEventDestination Simple Email Service"
+	},
+	{
 		"name": "createReceiptFilter",
 		"service": "SES",
 		"serviceFullName": "Simple Email Service",
@@ -7523,6 +7656,20 @@
 		"serviceFullName": "Simple Email Service",
 		"icon": "SES",
 		"keywords": "SES createReceiptRuleSet Simple Email Service"
+	},
+	{
+		"name": "deleteConfigurationSet",
+		"service": "SES",
+		"serviceFullName": "Simple Email Service",
+		"icon": "SES",
+		"keywords": "SES deleteConfigurationSet Simple Email Service"
+	},
+	{
+		"name": "deleteConfigurationSetEventDestination",
+		"service": "SES",
+		"serviceFullName": "Simple Email Service",
+		"icon": "SES",
+		"keywords": "SES deleteConfigurationSetEventDestination Simple Email Service"
 	},
 	{
 		"name": "deleteIdentity",
@@ -7572,6 +7719,13 @@
 		"serviceFullName": "Simple Email Service",
 		"icon": "SES",
 		"keywords": "SES describeActiveReceiptRuleSet Simple Email Service"
+	},
+	{
+		"name": "describeConfigurationSet",
+		"service": "SES",
+		"serviceFullName": "Simple Email Service",
+		"icon": "SES",
+		"keywords": "SES describeConfigurationSet Simple Email Service"
 	},
 	{
 		"name": "describeReceiptRule",
@@ -7635,6 +7789,13 @@
 		"serviceFullName": "Simple Email Service",
 		"icon": "SES",
 		"keywords": "SES getSendStatistics Simple Email Service"
+	},
+	{
+		"name": "listConfigurationSets",
+		"service": "SES",
+		"serviceFullName": "Simple Email Service",
+		"icon": "SES",
+		"keywords": "SES listConfigurationSets Simple Email Service"
 	},
 	{
 		"name": "listIdentities",
@@ -7754,6 +7915,13 @@
 		"serviceFullName": "Simple Email Service",
 		"icon": "SES",
 		"keywords": "SES setReceiptRulePosition Simple Email Service"
+	},
+	{
+		"name": "updateConfigurationSetEventDestination",
+		"service": "SES",
+		"serviceFullName": "Simple Email Service",
+		"icon": "SES",
+		"keywords": "SES updateConfigurationSetEventDestination Simple Email Service"
 	},
 	{
 		"name": "updateReceiptRule",
@@ -13634,6 +13802,83 @@
 		"serviceFullName": "Service Catalog",
 		"icon": "ServiceCatalog",
 		"keywords": "ServiceCatalog updateProvisionedProduct Service Catalog"
+	},
+	{
+		"name": "createReplicationJob",
+		"service": "SMS",
+		"serviceFullName": "Server Migration Service",
+		"icon": "aws",
+		"keywords": "SMS createReplicationJob Server Migration Service"
+	},
+	{
+		"name": "deleteReplicationJob",
+		"service": "SMS",
+		"serviceFullName": "Server Migration Service",
+		"icon": "aws",
+		"keywords": "SMS deleteReplicationJob Server Migration Service"
+	},
+	{
+		"name": "deleteServerCatalog",
+		"service": "SMS",
+		"serviceFullName": "Server Migration Service",
+		"icon": "aws",
+		"keywords": "SMS deleteServerCatalog Server Migration Service"
+	},
+	{
+		"name": "disassociateConnector",
+		"service": "SMS",
+		"serviceFullName": "Server Migration Service",
+		"icon": "aws",
+		"keywords": "SMS disassociateConnector Server Migration Service"
+	},
+	{
+		"name": "getConnectors",
+		"service": "SMS",
+		"serviceFullName": "Server Migration Service",
+		"icon": "aws",
+		"keywords": "SMS getConnectors Server Migration Service"
+	},
+	{
+		"name": "getReplicationJobs",
+		"service": "SMS",
+		"serviceFullName": "Server Migration Service",
+		"icon": "aws",
+		"keywords": "SMS getReplicationJobs Server Migration Service"
+	},
+	{
+		"name": "getReplicationRuns",
+		"service": "SMS",
+		"serviceFullName": "Server Migration Service",
+		"icon": "aws",
+		"keywords": "SMS getReplicationRuns Server Migration Service"
+	},
+	{
+		"name": "getServers",
+		"service": "SMS",
+		"serviceFullName": "Server Migration Service",
+		"icon": "aws",
+		"keywords": "SMS getServers Server Migration Service"
+	},
+	{
+		"name": "importServerCatalog",
+		"service": "SMS",
+		"serviceFullName": "Server Migration Service",
+		"icon": "aws",
+		"keywords": "SMS importServerCatalog Server Migration Service"
+	},
+	{
+		"name": "startOnDemandReplicationRun",
+		"service": "SMS",
+		"serviceFullName": "Server Migration Service",
+		"icon": "aws",
+		"keywords": "SMS startOnDemandReplicationRun Server Migration Service"
+	},
+	{
+		"name": "updateReplicationJob",
+		"service": "SMS",
+		"serviceFullName": "Server Migration Service",
+		"icon": "aws",
+		"keywords": "SMS updateReplicationJob Server Migration Service"
 	},
 	{
 		"name": "cancelJob",
