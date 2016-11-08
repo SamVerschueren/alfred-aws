@@ -15,6 +15,7 @@
   "scripts": {
     "test": "xo && ava",
     "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup",
     "prepublish": "./make.js"
   },
   "files": [
@@ -33,7 +34,7 @@
     "productivity"
   ],
   "dependencies": {
-    "alfy": "^0.5.0",
+    "alfy": "^0.6.0",
     "string-occurrence": "^1.2.0"
   },
   "devDependencies": {
