@@ -836,126 +836,126 @@
 		"name": "associateFleet",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream associateFleet AppStream"
 	},
 	{
 		"name": "createFleet",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream createFleet AppStream"
 	},
 	{
 		"name": "createStack",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream createStack AppStream"
 	},
 	{
 		"name": "createStreamingURL",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream createStreamingURL AppStream"
 	},
 	{
 		"name": "deleteFleet",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream deleteFleet AppStream"
 	},
 	{
 		"name": "deleteStack",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream deleteStack AppStream"
 	},
 	{
 		"name": "describeFleets",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream describeFleets AppStream"
 	},
 	{
 		"name": "describeImages",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream describeImages AppStream"
 	},
 	{
 		"name": "describeSessions",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream describeSessions AppStream"
 	},
 	{
 		"name": "describeStacks",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream describeStacks AppStream"
 	},
 	{
 		"name": "disassociateFleet",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream disassociateFleet AppStream"
 	},
 	{
 		"name": "expireSession",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream expireSession AppStream"
 	},
 	{
 		"name": "listAssociatedFleets",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream listAssociatedFleets AppStream"
 	},
 	{
 		"name": "listAssociatedStacks",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream listAssociatedStacks AppStream"
 	},
 	{
 		"name": "startFleet",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream startFleet AppStream"
 	},
 	{
 		"name": "stopFleet",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream stopFleet AppStream"
 	},
 	{
 		"name": "updateFleet",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream updateFleet AppStream"
 	},
 	{
 		"name": "updateStack",
 		"service": "AppStream",
 		"serviceFullName": "AppStream",
-		"icon": "aws",
+		"icon": "AppStream",
 		"keywords": "AppStream updateStack AppStream"
 	},
 	{
