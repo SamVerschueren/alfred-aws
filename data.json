@@ -98,6 +98,20 @@
 		"keywords": "APIGateway createDeployment API Gateway"
 	},
 	{
+		"name": "createDocumentationPart",
+		"service": "APIGateway",
+		"serviceFullName": "API Gateway",
+		"icon": "APIGateway",
+		"keywords": "APIGateway createDocumentationPart API Gateway"
+	},
+	{
+		"name": "createDocumentationVersion",
+		"service": "APIGateway",
+		"serviceFullName": "API Gateway",
+		"icon": "APIGateway",
+		"keywords": "APIGateway createDocumentationVersion API Gateway"
+	},
+	{
 		"name": "createDomainName",
 		"service": "APIGateway",
 		"serviceFullName": "API Gateway",
@@ -180,6 +194,20 @@
 		"serviceFullName": "API Gateway",
 		"icon": "APIGateway",
 		"keywords": "APIGateway deleteDeployment API Gateway"
+	},
+	{
+		"name": "deleteDocumentationPart",
+		"service": "APIGateway",
+		"serviceFullName": "API Gateway",
+		"icon": "APIGateway",
+		"keywords": "APIGateway deleteDocumentationPart API Gateway"
+	},
+	{
+		"name": "deleteDocumentationVersion",
+		"service": "APIGateway",
+		"serviceFullName": "API Gateway",
+		"icon": "APIGateway",
+		"keywords": "APIGateway deleteDocumentationVersion API Gateway"
 	},
 	{
 		"name": "deleteDomainName",
@@ -357,6 +385,34 @@
 		"keywords": "APIGateway getDeployments API Gateway"
 	},
 	{
+		"name": "getDocumentationPart",
+		"service": "APIGateway",
+		"serviceFullName": "API Gateway",
+		"icon": "APIGateway",
+		"keywords": "APIGateway getDocumentationPart API Gateway"
+	},
+	{
+		"name": "getDocumentationParts",
+		"service": "APIGateway",
+		"serviceFullName": "API Gateway",
+		"icon": "APIGateway",
+		"keywords": "APIGateway getDocumentationParts API Gateway"
+	},
+	{
+		"name": "getDocumentationVersion",
+		"service": "APIGateway",
+		"serviceFullName": "API Gateway",
+		"icon": "APIGateway",
+		"keywords": "APIGateway getDocumentationVersion API Gateway"
+	},
+	{
+		"name": "getDocumentationVersions",
+		"service": "APIGateway",
+		"serviceFullName": "API Gateway",
+		"icon": "APIGateway",
+		"keywords": "APIGateway getDocumentationVersions API Gateway"
+	},
+	{
 		"name": "getDomainName",
 		"service": "APIGateway",
 		"serviceFullName": "API Gateway",
@@ -462,6 +518,20 @@
 		"keywords": "APIGateway getSdk API Gateway"
 	},
 	{
+		"name": "getSdkType",
+		"service": "APIGateway",
+		"serviceFullName": "API Gateway",
+		"icon": "APIGateway",
+		"keywords": "APIGateway getSdkType API Gateway"
+	},
+	{
+		"name": "getSdkTypes",
+		"service": "APIGateway",
+		"serviceFullName": "API Gateway",
+		"icon": "APIGateway",
+		"keywords": "APIGateway getSdkTypes API Gateway"
+	},
+	{
 		"name": "getStage",
 		"service": "APIGateway",
 		"serviceFullName": "API Gateway",
@@ -516,6 +586,13 @@
 		"serviceFullName": "API Gateway",
 		"icon": "APIGateway",
 		"keywords": "APIGateway importApiKeys API Gateway"
+	},
+	{
+		"name": "importDocumentationParts",
+		"service": "APIGateway",
+		"serviceFullName": "API Gateway",
+		"icon": "APIGateway",
+		"keywords": "APIGateway importDocumentationParts API Gateway"
 	},
 	{
 		"name": "importRestApi",
@@ -614,6 +691,20 @@
 		"serviceFullName": "API Gateway",
 		"icon": "APIGateway",
 		"keywords": "APIGateway updateDeployment API Gateway"
+	},
+	{
+		"name": "updateDocumentationPart",
+		"service": "APIGateway",
+		"serviceFullName": "API Gateway",
+		"icon": "APIGateway",
+		"keywords": "APIGateway updateDocumentationPart API Gateway"
+	},
+	{
+		"name": "updateDocumentationVersion",
+		"service": "APIGateway",
+		"serviceFullName": "API Gateway",
+		"icon": "APIGateway",
+		"keywords": "APIGateway updateDocumentationVersion API Gateway"
 	},
 	{
 		"name": "updateDomainName",
@@ -740,6 +831,132 @@
 		"serviceFullName": "Application Auto Scaling",
 		"icon": "ApplicationAutoScaling",
 		"keywords": "ApplicationAutoScaling registerScalableTarget Application Auto Scaling"
+	},
+	{
+		"name": "associateFleet",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream associateFleet AppStream"
+	},
+	{
+		"name": "createFleet",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream createFleet AppStream"
+	},
+	{
+		"name": "createStack",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream createStack AppStream"
+	},
+	{
+		"name": "createStreamingURL",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream createStreamingURL AppStream"
+	},
+	{
+		"name": "deleteFleet",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream deleteFleet AppStream"
+	},
+	{
+		"name": "deleteStack",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream deleteStack AppStream"
+	},
+	{
+		"name": "describeFleets",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream describeFleets AppStream"
+	},
+	{
+		"name": "describeImages",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream describeImages AppStream"
+	},
+	{
+		"name": "describeSessions",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream describeSessions AppStream"
+	},
+	{
+		"name": "describeStacks",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream describeStacks AppStream"
+	},
+	{
+		"name": "disassociateFleet",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream disassociateFleet AppStream"
+	},
+	{
+		"name": "expireSession",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream expireSession AppStream"
+	},
+	{
+		"name": "listAssociatedFleets",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream listAssociatedFleets AppStream"
+	},
+	{
+		"name": "listAssociatedStacks",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream listAssociatedStacks AppStream"
+	},
+	{
+		"name": "startFleet",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream startFleet AppStream"
+	},
+	{
+		"name": "stopFleet",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream stopFleet AppStream"
+	},
+	{
+		"name": "updateFleet",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream updateFleet AppStream"
+	},
+	{
+		"name": "updateStack",
+		"service": "AppStream",
+		"serviceFullName": "AppStream",
+		"icon": "aws",
+		"keywords": "AppStream updateStack AppStream"
 	},
 	{
 		"name": "attachInstances",
@@ -1106,6 +1323,118 @@
 		"keywords": "AutoScaling updateAutoScalingGroup Auto Scaling"
 	},
 	{
+		"name": "cancelJob",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch cancelJob Batch"
+	},
+	{
+		"name": "createComputeEnvironment",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch createComputeEnvironment Batch"
+	},
+	{
+		"name": "createJobQueue",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch createJobQueue Batch"
+	},
+	{
+		"name": "deleteComputeEnvironment",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch deleteComputeEnvironment Batch"
+	},
+	{
+		"name": "deleteJobQueue",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch deleteJobQueue Batch"
+	},
+	{
+		"name": "deregisterJobDefinition",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch deregisterJobDefinition Batch"
+	},
+	{
+		"name": "describeComputeEnvironments",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch describeComputeEnvironments Batch"
+	},
+	{
+		"name": "describeJobDefinitions",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch describeJobDefinitions Batch"
+	},
+	{
+		"name": "describeJobQueues",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch describeJobQueues Batch"
+	},
+	{
+		"name": "describeJobs",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch describeJobs Batch"
+	},
+	{
+		"name": "listJobs",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch listJobs Batch"
+	},
+	{
+		"name": "registerJobDefinition",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch registerJobDefinition Batch"
+	},
+	{
+		"name": "submitJob",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch submitJob Batch"
+	},
+	{
+		"name": "terminateJob",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch terminateJob Batch"
+	},
+	{
+		"name": "updateComputeEnvironment",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch updateComputeEnvironment Batch"
+	},
+	{
+		"name": "updateJobQueue",
+		"service": "Batch",
+		"serviceFullName": "Batch",
+		"icon": "aws",
+		"keywords": "Batch updateJobQueue Batch"
+	},
+	{
 		"name": "createBudget",
 		"service": "Budgets",
 		"serviceFullName": "Budgets",
@@ -1328,6 +1657,13 @@
 		"serviceFullName": "CloudFormation",
 		"icon": "CloudFormation",
 		"keywords": "CloudFormation listExports CloudFormation"
+	},
+	{
+		"name": "listImports",
+		"service": "CloudFormation",
+		"serviceFullName": "CloudFormation",
+		"icon": "CloudFormation",
+		"keywords": "CloudFormation listImports CloudFormation"
 	},
 	{
 		"name": "listStackResources",
@@ -1918,6 +2254,13 @@
 		"keywords": "CloudTrail describeTrails CloudTrail"
 	},
 	{
+		"name": "getEventSelectors",
+		"service": "CloudTrail",
+		"serviceFullName": "CloudTrail",
+		"icon": "CloudTrail",
+		"keywords": "CloudTrail getEventSelectors CloudTrail"
+	},
+	{
 		"name": "getTrailStatus",
 		"service": "CloudTrail",
 		"serviceFullName": "CloudTrail",
@@ -1946,6 +2289,13 @@
 		"keywords": "CloudTrail lookupEvents CloudTrail"
 	},
 	{
+		"name": "putEventSelectors",
+		"service": "CloudTrail",
+		"serviceFullName": "CloudTrail",
+		"icon": "CloudTrail",
+		"keywords": "CloudTrail putEventSelectors CloudTrail"
+	},
+	{
 		"name": "removeTags",
 		"service": "CloudTrail",
 		"serviceFullName": "CloudTrail",
@@ -1972,6 +2322,83 @@
 		"serviceFullName": "CloudTrail",
 		"icon": "CloudTrail",
 		"keywords": "CloudTrail updateTrail CloudTrail"
+	},
+	{
+		"name": "batchGetBuilds",
+		"service": "CodeBuild",
+		"serviceFullName": "CodeBuild",
+		"icon": "aws",
+		"keywords": "CodeBuild batchGetBuilds CodeBuild"
+	},
+	{
+		"name": "batchGetProjects",
+		"service": "CodeBuild",
+		"serviceFullName": "CodeBuild",
+		"icon": "aws",
+		"keywords": "CodeBuild batchGetProjects CodeBuild"
+	},
+	{
+		"name": "createProject",
+		"service": "CodeBuild",
+		"serviceFullName": "CodeBuild",
+		"icon": "aws",
+		"keywords": "CodeBuild createProject CodeBuild"
+	},
+	{
+		"name": "deleteProject",
+		"service": "CodeBuild",
+		"serviceFullName": "CodeBuild",
+		"icon": "aws",
+		"keywords": "CodeBuild deleteProject CodeBuild"
+	},
+	{
+		"name": "listBuilds",
+		"service": "CodeBuild",
+		"serviceFullName": "CodeBuild",
+		"icon": "aws",
+		"keywords": "CodeBuild listBuilds CodeBuild"
+	},
+	{
+		"name": "listBuildsForProject",
+		"service": "CodeBuild",
+		"serviceFullName": "CodeBuild",
+		"icon": "aws",
+		"keywords": "CodeBuild listBuildsForProject CodeBuild"
+	},
+	{
+		"name": "listCuratedEnvironmentImages",
+		"service": "CodeBuild",
+		"serviceFullName": "CodeBuild",
+		"icon": "aws",
+		"keywords": "CodeBuild listCuratedEnvironmentImages CodeBuild"
+	},
+	{
+		"name": "listProjects",
+		"service": "CodeBuild",
+		"serviceFullName": "CodeBuild",
+		"icon": "aws",
+		"keywords": "CodeBuild listProjects CodeBuild"
+	},
+	{
+		"name": "startBuild",
+		"service": "CodeBuild",
+		"serviceFullName": "CodeBuild",
+		"icon": "aws",
+		"keywords": "CodeBuild startBuild CodeBuild"
+	},
+	{
+		"name": "stopBuild",
+		"service": "CodeBuild",
+		"serviceFullName": "CodeBuild",
+		"icon": "aws",
+		"keywords": "CodeBuild stopBuild CodeBuild"
+	},
+	{
+		"name": "updateProject",
+		"service": "CodeBuild",
+		"serviceFullName": "CodeBuild",
+		"icon": "aws",
+		"keywords": "CodeBuild updateProject CodeBuild"
 	},
 	{
 		"name": "batchGetRepositories",
@@ -2639,6 +3066,13 @@
 		"keywords": "CognitoIdentityProvider addCustomAttributes Cognito Identity Provider"
 	},
 	{
+		"name": "adminAddUserToGroup",
+		"service": "CognitoIdentityProvider",
+		"serviceFullName": "Cognito Identity Provider",
+		"icon": "CognitoIdentityProvider",
+		"keywords": "CognitoIdentityProvider adminAddUserToGroup Cognito Identity Provider"
+	},
+	{
 		"name": "adminConfirmSignUp",
 		"service": "CognitoIdentityProvider",
 		"serviceFullName": "Cognito Identity Provider",
@@ -2716,6 +3150,20 @@
 		"keywords": "CognitoIdentityProvider adminListDevices Cognito Identity Provider"
 	},
 	{
+		"name": "adminListGroupsForUser",
+		"service": "CognitoIdentityProvider",
+		"serviceFullName": "Cognito Identity Provider",
+		"icon": "CognitoIdentityProvider",
+		"keywords": "CognitoIdentityProvider adminListGroupsForUser Cognito Identity Provider"
+	},
+	{
+		"name": "adminRemoveUserFromGroup",
+		"service": "CognitoIdentityProvider",
+		"serviceFullName": "Cognito Identity Provider",
+		"icon": "CognitoIdentityProvider",
+		"keywords": "CognitoIdentityProvider adminRemoveUserFromGroup Cognito Identity Provider"
+	},
+	{
 		"name": "adminResetUserPassword",
 		"service": "CognitoIdentityProvider",
 		"serviceFullName": "Cognito Identity Provider",
@@ -2786,6 +3234,13 @@
 		"keywords": "CognitoIdentityProvider confirmSignUp Cognito Identity Provider"
 	},
 	{
+		"name": "createGroup",
+		"service": "CognitoIdentityProvider",
+		"serviceFullName": "Cognito Identity Provider",
+		"icon": "CognitoIdentityProvider",
+		"keywords": "CognitoIdentityProvider createGroup Cognito Identity Provider"
+	},
+	{
 		"name": "createUserImportJob",
 		"service": "CognitoIdentityProvider",
 		"serviceFullName": "Cognito Identity Provider",
@@ -2805,6 +3260,13 @@
 		"serviceFullName": "Cognito Identity Provider",
 		"icon": "CognitoIdentityProvider",
 		"keywords": "CognitoIdentityProvider createUserPoolClient Cognito Identity Provider"
+	},
+	{
+		"name": "deleteGroup",
+		"service": "CognitoIdentityProvider",
+		"serviceFullName": "Cognito Identity Provider",
+		"icon": "CognitoIdentityProvider",
+		"keywords": "CognitoIdentityProvider deleteGroup Cognito Identity Provider"
 	},
 	{
 		"name": "deleteUser",
@@ -2884,6 +3346,13 @@
 		"keywords": "CognitoIdentityProvider getDevice Cognito Identity Provider"
 	},
 	{
+		"name": "getGroup",
+		"service": "CognitoIdentityProvider",
+		"serviceFullName": "Cognito Identity Provider",
+		"icon": "CognitoIdentityProvider",
+		"keywords": "CognitoIdentityProvider getGroup Cognito Identity Provider"
+	},
+	{
 		"name": "getUser",
 		"service": "CognitoIdentityProvider",
 		"serviceFullName": "Cognito Identity Provider",
@@ -2919,6 +3388,13 @@
 		"keywords": "CognitoIdentityProvider listDevices Cognito Identity Provider"
 	},
 	{
+		"name": "listGroups",
+		"service": "CognitoIdentityProvider",
+		"serviceFullName": "Cognito Identity Provider",
+		"icon": "CognitoIdentityProvider",
+		"keywords": "CognitoIdentityProvider listGroups Cognito Identity Provider"
+	},
+	{
 		"name": "listUserImportJobs",
 		"service": "CognitoIdentityProvider",
 		"serviceFullName": "Cognito Identity Provider",
@@ -2945,6 +3421,13 @@
 		"serviceFullName": "Cognito Identity Provider",
 		"icon": "CognitoIdentityProvider",
 		"keywords": "CognitoIdentityProvider listUsers Cognito Identity Provider"
+	},
+	{
+		"name": "listUsersInGroup",
+		"service": "CognitoIdentityProvider",
+		"serviceFullName": "Cognito Identity Provider",
+		"icon": "CognitoIdentityProvider",
+		"keywords": "CognitoIdentityProvider listUsersInGroup Cognito Identity Provider"
 	},
 	{
 		"name": "resendConfirmationCode",
@@ -2994,6 +3477,13 @@
 		"serviceFullName": "Cognito Identity Provider",
 		"icon": "CognitoIdentityProvider",
 		"keywords": "CognitoIdentityProvider updateDeviceStatus Cognito Identity Provider"
+	},
+	{
+		"name": "updateGroup",
+		"service": "CognitoIdentityProvider",
+		"serviceFullName": "Cognito Identity Provider",
+		"icon": "CognitoIdentityProvider",
+		"keywords": "CognitoIdentityProvider updateGroup Cognito Identity Provider"
 	},
 	{
 		"name": "updateUserAttributes",
@@ -3801,6 +4291,13 @@
 		"keywords": "DirectConnect confirmPublicVirtualInterface Direct Connect"
 	},
 	{
+		"name": "createBGPPeer",
+		"service": "DirectConnect",
+		"serviceFullName": "Direct Connect",
+		"icon": "DirectConnect",
+		"keywords": "DirectConnect createBGPPeer Direct Connect"
+	},
+	{
 		"name": "createConnection",
 		"service": "DirectConnect",
 		"serviceFullName": "Direct Connect",
@@ -3827,6 +4324,13 @@
 		"serviceFullName": "Direct Connect",
 		"icon": "DirectConnect",
 		"keywords": "DirectConnect createPublicVirtualInterface Direct Connect"
+	},
+	{
+		"name": "deleteBGPPeer",
+		"service": "DirectConnect",
+		"serviceFullName": "Direct Connect",
+		"icon": "DirectConnect",
+		"keywords": "DirectConnect deleteBGPPeer Direct Connect"
 	},
 	{
 		"name": "deleteConnection",
@@ -3927,11 +4431,32 @@
 		"keywords": "DirectConnect untagResource Direct Connect"
 	},
 	{
+		"name": "associateConfigurationItemsToApplication",
+		"service": "ApplicationDiscoveryService",
+		"serviceFullName": "Application Discovery Service",
+		"icon": "aws",
+		"keywords": "ApplicationDiscoveryService associateConfigurationItemsToApplication Application Discovery Service"
+	},
+	{
+		"name": "createApplication",
+		"service": "ApplicationDiscoveryService",
+		"serviceFullName": "Application Discovery Service",
+		"icon": "aws",
+		"keywords": "ApplicationDiscoveryService createApplication Application Discovery Service"
+	},
+	{
 		"name": "createTags",
 		"service": "ApplicationDiscoveryService",
 		"serviceFullName": "Application Discovery Service",
 		"icon": "aws",
 		"keywords": "ApplicationDiscoveryService createTags Application Discovery Service"
+	},
+	{
+		"name": "deleteApplications",
+		"service": "ApplicationDiscoveryService",
+		"serviceFullName": "Application Discovery Service",
+		"icon": "aws",
+		"keywords": "ApplicationDiscoveryService deleteApplications Application Discovery Service"
 	},
 	{
 		"name": "deleteTags",
@@ -3969,6 +4494,13 @@
 		"keywords": "ApplicationDiscoveryService describeTags Application Discovery Service"
 	},
 	{
+		"name": "disassociateConfigurationItemsFromApplication",
+		"service": "ApplicationDiscoveryService",
+		"serviceFullName": "Application Discovery Service",
+		"icon": "aws",
+		"keywords": "ApplicationDiscoveryService disassociateConfigurationItemsFromApplication Application Discovery Service"
+	},
+	{
 		"name": "exportConfigurations",
 		"service": "ApplicationDiscoveryService",
 		"serviceFullName": "Application Discovery Service",
@@ -3976,11 +4508,25 @@
 		"keywords": "ApplicationDiscoveryService exportConfigurations Application Discovery Service"
 	},
 	{
+		"name": "getDiscoverySummary",
+		"service": "ApplicationDiscoveryService",
+		"serviceFullName": "Application Discovery Service",
+		"icon": "aws",
+		"keywords": "ApplicationDiscoveryService getDiscoverySummary Application Discovery Service"
+	},
+	{
 		"name": "listConfigurations",
 		"service": "ApplicationDiscoveryService",
 		"serviceFullName": "Application Discovery Service",
 		"icon": "aws",
 		"keywords": "ApplicationDiscoveryService listConfigurations Application Discovery Service"
+	},
+	{
+		"name": "listServerNeighbors",
+		"service": "ApplicationDiscoveryService",
+		"serviceFullName": "Application Discovery Service",
+		"icon": "aws",
+		"keywords": "ApplicationDiscoveryService listServerNeighbors Application Discovery Service"
 	},
 	{
 		"name": "startDataCollectionByAgentIds",
@@ -3995,6 +4541,13 @@
 		"serviceFullName": "Application Discovery Service",
 		"icon": "aws",
 		"keywords": "ApplicationDiscoveryService stopDataCollectionByAgentIds Application Discovery Service"
+	},
+	{
+		"name": "updateApplication",
+		"service": "ApplicationDiscoveryService",
+		"serviceFullName": "Application Discovery Service",
+		"icon": "aws",
+		"keywords": "ApplicationDiscoveryService updateApplication Application Discovery Service"
 	},
 	{
 		"name": "addTagsToResource",
@@ -4186,6 +4739,13 @@
 		"keywords": "DatabaseMigrationService modifyReplicationSubnetGroup Database Migration Service"
 	},
 	{
+		"name": "modifyReplicationTask",
+		"service": "DatabaseMigrationService",
+		"serviceFullName": "Database Migration Service",
+		"icon": "DatabaseMigrationService",
+		"keywords": "DatabaseMigrationService modifyReplicationTask Database Migration Service"
+	},
+	{
 		"name": "refreshSchemas",
 		"service": "DatabaseMigrationService",
 		"serviceFullName": "Database Migration Service",
@@ -4233,6 +4793,13 @@
 		"serviceFullName": "Directory Service",
 		"icon": "DirectoryService",
 		"keywords": "DirectoryService addTagsToResource Directory Service"
+	},
+	{
+		"name": "cancelSchemaExtension",
+		"service": "DirectoryService",
+		"serviceFullName": "Directory Service",
+		"icon": "DirectoryService",
+		"keywords": "DirectoryService cancelSchemaExtension Directory Service"
 	},
 	{
 		"name": "connectDirectory",
@@ -4410,6 +4977,13 @@
 		"keywords": "DirectoryService listIpRoutes Directory Service"
 	},
 	{
+		"name": "listSchemaExtensions",
+		"service": "DirectoryService",
+		"serviceFullName": "Directory Service",
+		"icon": "DirectoryService",
+		"keywords": "DirectoryService listSchemaExtensions Directory Service"
+	},
+	{
 		"name": "listTagsForResource",
 		"service": "DirectoryService",
 		"serviceFullName": "Directory Service",
@@ -4443,6 +5017,13 @@
 		"serviceFullName": "Directory Service",
 		"icon": "DirectoryService",
 		"keywords": "DirectoryService restoreFromSnapshot Directory Service"
+	},
+	{
+		"name": "startSchemaExtension",
+		"service": "DirectoryService",
+		"serviceFullName": "Directory Service",
+		"icon": "DirectoryService",
+		"keywords": "DirectoryService startSchemaExtension Directory Service"
 	},
 	{
 		"name": "updateConditionalForwarder",
@@ -4592,6 +5173,13 @@
 		"keywords": "EC2 allocateHosts Elastic Compute Cloud"
 	},
 	{
+		"name": "assignIpv6Addresses",
+		"service": "EC2",
+		"serviceFullName": "Elastic Compute Cloud",
+		"icon": "EC2",
+		"keywords": "EC2 assignIpv6Addresses Elastic Compute Cloud"
+	},
+	{
 		"name": "assignPrivateIpAddresses",
 		"service": "EC2",
 		"serviceFullName": "Elastic Compute Cloud",
@@ -4618,6 +5206,20 @@
 		"serviceFullName": "Elastic Compute Cloud",
 		"icon": "EC2",
 		"keywords": "EC2 associateRouteTable Elastic Compute Cloud"
+	},
+	{
+		"name": "associateSubnetCidrBlock",
+		"service": "EC2",
+		"serviceFullName": "Elastic Compute Cloud",
+		"icon": "EC2",
+		"keywords": "EC2 associateSubnetCidrBlock Elastic Compute Cloud"
+	},
+	{
+		"name": "associateVpcCidrBlock",
+		"service": "EC2",
+		"serviceFullName": "Elastic Compute Cloud",
+		"icon": "EC2",
+		"keywords": "EC2 associateVpcCidrBlock Elastic Compute Cloud"
 	},
 	{
 		"name": "attachClassicLinkVpc",
@@ -4758,6 +5360,13 @@
 		"serviceFullName": "Elastic Compute Cloud",
 		"icon": "EC2",
 		"keywords": "EC2 createDhcpOptions Elastic Compute Cloud"
+	},
+	{
+		"name": "createEgressOnlyInternetGateway",
+		"service": "EC2",
+		"serviceFullName": "Elastic Compute Cloud",
+		"icon": "EC2",
+		"keywords": "EC2 createEgressOnlyInternetGateway Elastic Compute Cloud"
 	},
 	{
 		"name": "createFlowLogs",
@@ -4947,6 +5556,13 @@
 		"serviceFullName": "Elastic Compute Cloud",
 		"icon": "EC2",
 		"keywords": "EC2 deleteDhcpOptions Elastic Compute Cloud"
+	},
+	{
+		"name": "deleteEgressOnlyInternetGateway",
+		"service": "EC2",
+		"serviceFullName": "Elastic Compute Cloud",
+		"icon": "EC2",
+		"keywords": "EC2 deleteEgressOnlyInternetGateway Elastic Compute Cloud"
 	},
 	{
 		"name": "deleteFlowLogs",
@@ -5164,6 +5780,13 @@
 		"serviceFullName": "Elastic Compute Cloud",
 		"icon": "EC2",
 		"keywords": "EC2 describeDhcpOptions Elastic Compute Cloud"
+	},
+	{
+		"name": "describeEgressOnlyInternetGateways",
+		"service": "EC2",
+		"serviceFullName": "Elastic Compute Cloud",
+		"icon": "EC2",
+		"keywords": "EC2 describeEgressOnlyInternetGateways Elastic Compute Cloud"
 	},
 	{
 		"name": "describeExportTasks",
@@ -5628,6 +6251,20 @@
 		"keywords": "EC2 disassociateRouteTable Elastic Compute Cloud"
 	},
 	{
+		"name": "disassociateSubnetCidrBlock",
+		"service": "EC2",
+		"serviceFullName": "Elastic Compute Cloud",
+		"icon": "EC2",
+		"keywords": "EC2 disassociateSubnetCidrBlock Elastic Compute Cloud"
+	},
+	{
+		"name": "disassociateVpcCidrBlock",
+		"service": "EC2",
+		"serviceFullName": "Elastic Compute Cloud",
+		"icon": "EC2",
+		"keywords": "EC2 disassociateVpcCidrBlock Elastic Compute Cloud"
+	},
+	{
 		"name": "enableVgwRoutePropagation",
 		"service": "EC2",
 		"serviceFullName": "Elastic Compute Cloud",
@@ -6034,6 +6671,13 @@
 		"keywords": "EC2 terminateInstances Elastic Compute Cloud"
 	},
 	{
+		"name": "unassignIpv6Addresses",
+		"service": "EC2",
+		"serviceFullName": "Elastic Compute Cloud",
+		"icon": "EC2",
+		"keywords": "EC2 unassignIpv6Addresses Elastic Compute Cloud"
+	},
+	{
 		"name": "unassignPrivateIpAddresses",
 		"service": "EC2",
 		"serviceFullName": "Elastic Compute Cloud",
@@ -6181,6 +6825,13 @@
 		"keywords": "ECS createService EC2 Container Service"
 	},
 	{
+		"name": "deleteAttributes",
+		"service": "ECS",
+		"serviceFullName": "EC2 Container Service",
+		"icon": "ECS",
+		"keywords": "ECS deleteAttributes EC2 Container Service"
+	},
+	{
 		"name": "deleteCluster",
 		"service": "ECS",
 		"serviceFullName": "EC2 Container Service",
@@ -6251,6 +6902,13 @@
 		"keywords": "ECS discoverPollEndpoint EC2 Container Service"
 	},
 	{
+		"name": "listAttributes",
+		"service": "ECS",
+		"serviceFullName": "EC2 Container Service",
+		"icon": "ECS",
+		"keywords": "ECS listAttributes EC2 Container Service"
+	},
+	{
 		"name": "listClusters",
 		"service": "ECS",
 		"serviceFullName": "EC2 Container Service",
@@ -6291,6 +6949,13 @@
 		"serviceFullName": "EC2 Container Service",
 		"icon": "ECS",
 		"keywords": "ECS listTasks EC2 Container Service"
+	},
+	{
+		"name": "putAttributes",
+		"service": "ECS",
+		"serviceFullName": "EC2 Container Service",
+		"icon": "ECS",
+		"keywords": "ECS putAttributes EC2 Container Service"
 	},
 	{
 		"name": "registerContainerInstance",
@@ -6846,6 +7511,13 @@
 		"keywords": "ElasticBeanstalk updateApplication Elastic Beanstalk"
 	},
 	{
+		"name": "updateApplicationResourceLifecycle",
+		"service": "ElasticBeanstalk",
+		"serviceFullName": "Elastic Beanstalk",
+		"icon": "ElasticBeanstalk",
+		"keywords": "ElasticBeanstalk updateApplicationResourceLifecycle Elastic Beanstalk"
+	},
+	{
 		"name": "updateApplicationVersion",
 		"service": "ElasticBeanstalk",
 		"serviceFullName": "Elastic Beanstalk",
@@ -7371,6 +8043,13 @@
 		"keywords": "EMR addTags Elastic MapReduce"
 	},
 	{
+		"name": "cancelSteps",
+		"service": "EMR",
+		"serviceFullName": "Elastic MapReduce",
+		"icon": "EMR",
+		"keywords": "EMR cancelSteps Elastic MapReduce"
+	},
+	{
 		"name": "createSecurityConfiguration",
 		"service": "EMR",
 		"serviceFullName": "Elastic MapReduce",
@@ -7460,6 +8139,20 @@
 		"serviceFullName": "Elastic MapReduce",
 		"icon": "EMR",
 		"keywords": "EMR modifyInstanceGroups Elastic MapReduce"
+	},
+	{
+		"name": "putAutoScalingPolicy",
+		"service": "EMR",
+		"serviceFullName": "Elastic MapReduce",
+		"icon": "EMR",
+		"keywords": "EMR putAutoScalingPolicy Elastic MapReduce"
+	},
+	{
+		"name": "removeAutoScalingPolicy",
+		"service": "EMR",
+		"serviceFullName": "Elastic MapReduce",
+		"icon": "EMR",
+		"keywords": "EMR removeAutoScalingPolicy Elastic MapReduce"
 	},
 	{
 		"name": "removeTags",
@@ -8337,6 +9030,13 @@
 		"keywords": "GameLift getGameSessionLogUrl GameLift"
 	},
 	{
+		"name": "getInstanceAccess",
+		"service": "GameLift",
+		"serviceFullName": "GameLift",
+		"icon": "GameLift",
+		"keywords": "GameLift getInstanceAccess GameLift"
+	},
+	{
 		"name": "listAliases",
 		"service": "GameLift",
 		"serviceFullName": "GameLift",
@@ -8596,6 +9296,13 @@
 		"keywords": "Glacier listParts Glacier"
 	},
 	{
+		"name": "listProvisionedCapacity",
+		"service": "Glacier",
+		"serviceFullName": "Glacier",
+		"icon": "Glacier",
+		"keywords": "Glacier listProvisionedCapacity Glacier"
+	},
+	{
 		"name": "listTagsForVault",
 		"service": "Glacier",
 		"serviceFullName": "Glacier",
@@ -8608,6 +9315,13 @@
 		"serviceFullName": "Glacier",
 		"icon": "Glacier",
 		"keywords": "Glacier listVaults Glacier"
+	},
+	{
+		"name": "purchaseProvisionedCapacity",
+		"service": "Glacier",
+		"serviceFullName": "Glacier",
+		"icon": "Glacier",
+		"keywords": "Glacier purchaseProvisionedCapacity Glacier"
 	},
 	{
 		"name": "removeTagsFromVault",
@@ -8650,6 +9364,48 @@
 		"serviceFullName": "Glacier",
 		"icon": "Glacier",
 		"keywords": "Glacier uploadMultipartPart Glacier"
+	},
+	{
+		"name": "describeAffectedEntities",
+		"service": "Health",
+		"serviceFullName": "Health APIs and Notifications",
+		"icon": "aws",
+		"keywords": "Health describeAffectedEntities Health APIs and Notifications"
+	},
+	{
+		"name": "describeEntityAggregates",
+		"service": "Health",
+		"serviceFullName": "Health APIs and Notifications",
+		"icon": "aws",
+		"keywords": "Health describeEntityAggregates Health APIs and Notifications"
+	},
+	{
+		"name": "describeEventAggregates",
+		"service": "Health",
+		"serviceFullName": "Health APIs and Notifications",
+		"icon": "aws",
+		"keywords": "Health describeEventAggregates Health APIs and Notifications"
+	},
+	{
+		"name": "describeEventDetails",
+		"service": "Health",
+		"serviceFullName": "Health APIs and Notifications",
+		"icon": "aws",
+		"keywords": "Health describeEventDetails Health APIs and Notifications"
+	},
+	{
+		"name": "describeEventTypes",
+		"service": "Health",
+		"serviceFullName": "Health APIs and Notifications",
+		"icon": "aws",
+		"keywords": "Health describeEventTypes Health APIs and Notifications"
+	},
+	{
+		"name": "describeEvents",
+		"service": "Health",
+		"serviceFullName": "Health APIs and Notifications",
+		"icon": "aws",
+		"keywords": "Health describeEvents Health APIs and Notifications"
 	},
 	{
 		"name": "addClientIDToOpenIDConnectProvider",
@@ -8769,6 +9525,13 @@
 		"serviceFullName": "Identity and Access Management",
 		"icon": "IAM",
 		"keywords": "IAM createSAMLProvider Identity and Access Management"
+	},
+	{
+		"name": "createServiceSpecificCredential",
+		"service": "IAM",
+		"serviceFullName": "Identity and Access Management",
+		"icon": "IAM",
+		"keywords": "IAM createServiceSpecificCredential Identity and Access Management"
 	},
 	{
 		"name": "createUser",
@@ -8895,6 +9658,13 @@
 		"serviceFullName": "Identity and Access Management",
 		"icon": "IAM",
 		"keywords": "IAM deleteServerCertificate Identity and Access Management"
+	},
+	{
+		"name": "deleteServiceSpecificCredential",
+		"service": "IAM",
+		"serviceFullName": "Identity and Access Management",
+		"icon": "IAM",
+		"keywords": "IAM deleteServiceSpecificCredential Identity and Access Management"
 	},
 	{
 		"name": "deleteSigningCertificate",
@@ -9247,6 +10017,13 @@
 		"keywords": "IAM listServerCertificates Identity and Access Management"
 	},
 	{
+		"name": "listServiceSpecificCredentials",
+		"service": "IAM",
+		"serviceFullName": "Identity and Access Management",
+		"icon": "IAM",
+		"keywords": "IAM listServiceSpecificCredentials Identity and Access Management"
+	},
+	{
 		"name": "listSigningCertificates",
 		"service": "IAM",
 		"serviceFullName": "Identity and Access Management",
@@ -9315,6 +10092,13 @@
 		"serviceFullName": "Identity and Access Management",
 		"icon": "IAM",
 		"keywords": "IAM removeUserFromGroup Identity and Access Management"
+	},
+	{
+		"name": "resetServiceSpecificCredential",
+		"service": "IAM",
+		"serviceFullName": "Identity and Access Management",
+		"icon": "IAM",
+		"keywords": "IAM resetServiceSpecificCredential Identity and Access Management"
 	},
 	{
 		"name": "resyncMFADevice",
@@ -9406,6 +10190,13 @@
 		"serviceFullName": "Identity and Access Management",
 		"icon": "IAM",
 		"keywords": "IAM updateServerCertificate Identity and Access Management"
+	},
+	{
+		"name": "updateServiceSpecificCredential",
+		"service": "IAM",
+		"serviceFullName": "Identity and Access Management",
+		"icon": "IAM",
+		"keywords": "IAM updateServiceSpecificCredential Identity and Access Management"
 	},
 	{
 		"name": "updateSigningCertificate",
@@ -10164,6 +10955,13 @@
 		"keywords": "Kinesis deleteStream Kinesis"
 	},
 	{
+		"name": "describeLimits",
+		"service": "Kinesis",
+		"serviceFullName": "Kinesis",
+		"icon": "Kinesis",
+		"keywords": "Kinesis describeLimits Kinesis"
+	},
+	{
 		"name": "describeStream",
 		"service": "Kinesis",
 		"serviceFullName": "Kinesis",
@@ -10253,6 +11051,13 @@
 		"serviceFullName": "Kinesis",
 		"icon": "Kinesis",
 		"keywords": "Kinesis splitShard Kinesis"
+	},
+	{
+		"name": "updateShardCount",
+		"service": "Kinesis",
+		"serviceFullName": "Kinesis",
+		"icon": "Kinesis",
+		"keywords": "Kinesis updateShardCount Kinesis"
 	},
 	{
 		"name": "addApplicationInput",
@@ -10619,6 +11424,13 @@
 		"keywords": "Lambda deleteFunction Lambda"
 	},
 	{
+		"name": "getAccountSettings",
+		"service": "Lambda",
+		"serviceFullName": "Lambda",
+		"icon": "Lambda",
+		"keywords": "Lambda getAccountSettings Lambda"
+	},
+	{
 		"name": "getAlias",
 		"service": "Lambda",
 		"serviceFullName": "Lambda",
@@ -10736,6 +11548,335 @@
 		"serviceFullName": "Lambda",
 		"icon": "Lambda",
 		"keywords": "Lambda updateFunctionConfiguration Lambda"
+	},
+	{
+		"name": "allocateStaticIp",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail allocateStaticIp Lightsail"
+	},
+	{
+		"name": "attachStaticIp",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail attachStaticIp Lightsail"
+	},
+	{
+		"name": "closeInstancePublicPorts",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail closeInstancePublicPorts Lightsail"
+	},
+	{
+		"name": "createDomain",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail createDomain Lightsail"
+	},
+	{
+		"name": "createDomainEntry",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail createDomainEntry Lightsail"
+	},
+	{
+		"name": "createInstanceSnapshot",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail createInstanceSnapshot Lightsail"
+	},
+	{
+		"name": "createInstances",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail createInstances Lightsail"
+	},
+	{
+		"name": "createInstancesFromSnapshot",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail createInstancesFromSnapshot Lightsail"
+	},
+	{
+		"name": "createKeyPair",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail createKeyPair Lightsail"
+	},
+	{
+		"name": "deleteDomain",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail deleteDomain Lightsail"
+	},
+	{
+		"name": "deleteDomainEntry",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail deleteDomainEntry Lightsail"
+	},
+	{
+		"name": "deleteInstance",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail deleteInstance Lightsail"
+	},
+	{
+		"name": "deleteInstanceSnapshot",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail deleteInstanceSnapshot Lightsail"
+	},
+	{
+		"name": "deleteKeyPair",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail deleteKeyPair Lightsail"
+	},
+	{
+		"name": "detachStaticIp",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail detachStaticIp Lightsail"
+	},
+	{
+		"name": "downloadDefaultKeyPair",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail downloadDefaultKeyPair Lightsail"
+	},
+	{
+		"name": "getActiveNames",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getActiveNames Lightsail"
+	},
+	{
+		"name": "getBlueprints",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getBlueprints Lightsail"
+	},
+	{
+		"name": "getBundles",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getBundles Lightsail"
+	},
+	{
+		"name": "getDomain",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getDomain Lightsail"
+	},
+	{
+		"name": "getDomains",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getDomains Lightsail"
+	},
+	{
+		"name": "getInstance",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getInstance Lightsail"
+	},
+	{
+		"name": "getInstanceAccessDetails",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getInstanceAccessDetails Lightsail"
+	},
+	{
+		"name": "getInstanceMetricData",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getInstanceMetricData Lightsail"
+	},
+	{
+		"name": "getInstancePortStates",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getInstancePortStates Lightsail"
+	},
+	{
+		"name": "getInstanceSnapshot",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getInstanceSnapshot Lightsail"
+	},
+	{
+		"name": "getInstanceSnapshots",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getInstanceSnapshots Lightsail"
+	},
+	{
+		"name": "getInstanceState",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getInstanceState Lightsail"
+	},
+	{
+		"name": "getInstances",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getInstances Lightsail"
+	},
+	{
+		"name": "getKeyPair",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getKeyPair Lightsail"
+	},
+	{
+		"name": "getKeyPairs",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getKeyPairs Lightsail"
+	},
+	{
+		"name": "getOperation",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getOperation Lightsail"
+	},
+	{
+		"name": "getOperations",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getOperations Lightsail"
+	},
+	{
+		"name": "getOperationsForResource",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getOperationsForResource Lightsail"
+	},
+	{
+		"name": "getRegions",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getRegions Lightsail"
+	},
+	{
+		"name": "getStaticIp",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getStaticIp Lightsail"
+	},
+	{
+		"name": "getStaticIps",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail getStaticIps Lightsail"
+	},
+	{
+		"name": "importKeyPair",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail importKeyPair Lightsail"
+	},
+	{
+		"name": "isVpcPeered",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail isVpcPeered Lightsail"
+	},
+	{
+		"name": "openInstancePublicPorts",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail openInstancePublicPorts Lightsail"
+	},
+	{
+		"name": "peerVpc",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail peerVpc Lightsail"
+	},
+	{
+		"name": "rebootInstance",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail rebootInstance Lightsail"
+	},
+	{
+		"name": "releaseStaticIp",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail releaseStaticIp Lightsail"
+	},
+	{
+		"name": "startInstance",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail startInstance Lightsail"
+	},
+	{
+		"name": "stopInstance",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail stopInstance Lightsail"
+	},
+	{
+		"name": "unpeerVpc",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail unpeerVpc Lightsail"
+	},
+	{
+		"name": "updateDomainEntry",
+		"service": "Lightsail",
+		"serviceFullName": "Lightsail",
+		"icon": "aws",
+		"keywords": "Lightsail updateDomainEntry Lightsail"
 	},
 	{
 		"name": "cancelExportTask",
@@ -10864,6 +12005,13 @@
 		"keywords": "CloudWatchLogs getLogEvents CloudWatch Logs"
 	},
 	{
+		"name": "listTagsLogGroup",
+		"service": "CloudWatchLogs",
+		"serviceFullName": "CloudWatch Logs",
+		"icon": "CloudWatchLogs",
+		"keywords": "CloudWatchLogs listTagsLogGroup CloudWatch Logs"
+	},
+	{
 		"name": "putDestination",
 		"service": "CloudWatchLogs",
 		"serviceFullName": "CloudWatch Logs",
@@ -10906,11 +12054,25 @@
 		"keywords": "CloudWatchLogs putSubscriptionFilter CloudWatch Logs"
 	},
 	{
+		"name": "tagLogGroup",
+		"service": "CloudWatchLogs",
+		"serviceFullName": "CloudWatch Logs",
+		"icon": "CloudWatchLogs",
+		"keywords": "CloudWatchLogs tagLogGroup CloudWatch Logs"
+	},
+	{
 		"name": "testMetricFilter",
 		"service": "CloudWatchLogs",
 		"serviceFullName": "CloudWatch Logs",
 		"icon": "CloudWatchLogs",
 		"keywords": "CloudWatchLogs testMetricFilter CloudWatch Logs"
+	},
+	{
+		"name": "untagLogGroup",
+		"service": "CloudWatchLogs",
+		"serviceFullName": "CloudWatch Logs",
+		"icon": "CloudWatchLogs",
+		"keywords": "CloudWatchLogs untagLogGroup CloudWatch Logs"
 	},
 	{
 		"name": "addTags",
@@ -11123,11 +12285,25 @@
 		"keywords": "MarketplaceCommerceAnalytics startSupportDataExport Marketplace Commerce Analytics"
 	},
 	{
+		"name": "batchMeterUsage",
+		"service": "MarketplaceMetering",
+		"serviceFullName": "Marketplace Metering",
+		"icon": "aws",
+		"keywords": "MarketplaceMetering batchMeterUsage Marketplace Metering"
+	},
+	{
 		"name": "meterUsage",
 		"service": "MarketplaceMetering",
 		"serviceFullName": "Marketplace Metering",
 		"icon": "aws",
 		"keywords": "MarketplaceMetering meterUsage Marketplace Metering"
+	},
+	{
+		"name": "resolveCustomer",
+		"service": "MarketplaceMetering",
+		"serviceFullName": "Marketplace Metering",
+		"icon": "aws",
+		"keywords": "MarketplaceMetering resolveCustomer Marketplace Metering"
 	},
 	{
 		"name": "putEvents",
@@ -11702,6 +12878,363 @@
 		"serviceFullName": "OpsWorks",
 		"icon": "OpsWorks",
 		"keywords": "OpsWorks updateVolume OpsWorks"
+	},
+	{
+		"name": "associateNode",
+		"service": "OpsWorksCM",
+		"serviceFullName": "OpsWorks for Chef Automate",
+		"icon": "aws",
+		"keywords": "OpsWorksCM associateNode OpsWorks for Chef Automate"
+	},
+	{
+		"name": "createBackup",
+		"service": "OpsWorksCM",
+		"serviceFullName": "OpsWorks for Chef Automate",
+		"icon": "aws",
+		"keywords": "OpsWorksCM createBackup OpsWorks for Chef Automate"
+	},
+	{
+		"name": "createServer",
+		"service": "OpsWorksCM",
+		"serviceFullName": "OpsWorks for Chef Automate",
+		"icon": "aws",
+		"keywords": "OpsWorksCM createServer OpsWorks for Chef Automate"
+	},
+	{
+		"name": "deleteBackup",
+		"service": "OpsWorksCM",
+		"serviceFullName": "OpsWorks for Chef Automate",
+		"icon": "aws",
+		"keywords": "OpsWorksCM deleteBackup OpsWorks for Chef Automate"
+	},
+	{
+		"name": "deleteServer",
+		"service": "OpsWorksCM",
+		"serviceFullName": "OpsWorks for Chef Automate",
+		"icon": "aws",
+		"keywords": "OpsWorksCM deleteServer OpsWorks for Chef Automate"
+	},
+	{
+		"name": "describeAccountAttributes",
+		"service": "OpsWorksCM",
+		"serviceFullName": "OpsWorks for Chef Automate",
+		"icon": "aws",
+		"keywords": "OpsWorksCM describeAccountAttributes OpsWorks for Chef Automate"
+	},
+	{
+		"name": "describeBackups",
+		"service": "OpsWorksCM",
+		"serviceFullName": "OpsWorks for Chef Automate",
+		"icon": "aws",
+		"keywords": "OpsWorksCM describeBackups OpsWorks for Chef Automate"
+	},
+	{
+		"name": "describeEvents",
+		"service": "OpsWorksCM",
+		"serviceFullName": "OpsWorks for Chef Automate",
+		"icon": "aws",
+		"keywords": "OpsWorksCM describeEvents OpsWorks for Chef Automate"
+	},
+	{
+		"name": "describeNodeAssociationStatus",
+		"service": "OpsWorksCM",
+		"serviceFullName": "OpsWorks for Chef Automate",
+		"icon": "aws",
+		"keywords": "OpsWorksCM describeNodeAssociationStatus OpsWorks for Chef Automate"
+	},
+	{
+		"name": "describeServers",
+		"service": "OpsWorksCM",
+		"serviceFullName": "OpsWorks for Chef Automate",
+		"icon": "aws",
+		"keywords": "OpsWorksCM describeServers OpsWorks for Chef Automate"
+	},
+	{
+		"name": "disassociateNode",
+		"service": "OpsWorksCM",
+		"serviceFullName": "OpsWorks for Chef Automate",
+		"icon": "aws",
+		"keywords": "OpsWorksCM disassociateNode OpsWorks for Chef Automate"
+	},
+	{
+		"name": "restoreServer",
+		"service": "OpsWorksCM",
+		"serviceFullName": "OpsWorks for Chef Automate",
+		"icon": "aws",
+		"keywords": "OpsWorksCM restoreServer OpsWorks for Chef Automate"
+	},
+	{
+		"name": "startMaintenance",
+		"service": "OpsWorksCM",
+		"serviceFullName": "OpsWorks for Chef Automate",
+		"icon": "aws",
+		"keywords": "OpsWorksCM startMaintenance OpsWorks for Chef Automate"
+	},
+	{
+		"name": "updateServer",
+		"service": "OpsWorksCM",
+		"serviceFullName": "OpsWorks for Chef Automate",
+		"icon": "aws",
+		"keywords": "OpsWorksCM updateServer OpsWorks for Chef Automate"
+	},
+	{
+		"name": "updateServerEngineAttributes",
+		"service": "OpsWorksCM",
+		"serviceFullName": "OpsWorks for Chef Automate",
+		"icon": "aws",
+		"keywords": "OpsWorksCM updateServerEngineAttributes OpsWorks for Chef Automate"
+	},
+	{
+		"name": "createCampaign",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint createCampaign Pinpoint"
+	},
+	{
+		"name": "createImportJob",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint createImportJob Pinpoint"
+	},
+	{
+		"name": "createSegment",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint createSegment Pinpoint"
+	},
+	{
+		"name": "deleteApnsChannel",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint deleteApnsChannel Pinpoint"
+	},
+	{
+		"name": "deleteCampaign",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint deleteCampaign Pinpoint"
+	},
+	{
+		"name": "deleteGcmChannel",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint deleteGcmChannel Pinpoint"
+	},
+	{
+		"name": "deleteSegment",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint deleteSegment Pinpoint"
+	},
+	{
+		"name": "getApnsChannel",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getApnsChannel Pinpoint"
+	},
+	{
+		"name": "getApplicationSettings",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getApplicationSettings Pinpoint"
+	},
+	{
+		"name": "getCampaign",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getCampaign Pinpoint"
+	},
+	{
+		"name": "getCampaignActivities",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getCampaignActivities Pinpoint"
+	},
+	{
+		"name": "getCampaignVersion",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getCampaignVersion Pinpoint"
+	},
+	{
+		"name": "getCampaignVersions",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getCampaignVersions Pinpoint"
+	},
+	{
+		"name": "getCampaigns",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getCampaigns Pinpoint"
+	},
+	{
+		"name": "getEndpoint",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getEndpoint Pinpoint"
+	},
+	{
+		"name": "getGcmChannel",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getGcmChannel Pinpoint"
+	},
+	{
+		"name": "getImportJob",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getImportJob Pinpoint"
+	},
+	{
+		"name": "getImportJobs",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getImportJobs Pinpoint"
+	},
+	{
+		"name": "getSegment",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getSegment Pinpoint"
+	},
+	{
+		"name": "getSegmentImportJobs",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getSegmentImportJobs Pinpoint"
+	},
+	{
+		"name": "getSegmentVersion",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getSegmentVersion Pinpoint"
+	},
+	{
+		"name": "getSegmentVersions",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getSegmentVersions Pinpoint"
+	},
+	{
+		"name": "getSegments",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint getSegments Pinpoint"
+	},
+	{
+		"name": "updateApnsChannel",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint updateApnsChannel Pinpoint"
+	},
+	{
+		"name": "updateApplicationSettings",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint updateApplicationSettings Pinpoint"
+	},
+	{
+		"name": "updateCampaign",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint updateCampaign Pinpoint"
+	},
+	{
+		"name": "updateEndpoint",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint updateEndpoint Pinpoint"
+	},
+	{
+		"name": "updateEndpointsBatch",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint updateEndpointsBatch Pinpoint"
+	},
+	{
+		"name": "updateGcmChannel",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint updateGcmChannel Pinpoint"
+	},
+	{
+		"name": "updateSegment",
+		"service": "Pinpoint",
+		"serviceFullName": "Pinpoint",
+		"icon": "aws",
+		"keywords": "Pinpoint updateSegment Pinpoint"
+	},
+	{
+		"name": "deleteLexicon",
+		"service": "Polly",
+		"serviceFullName": "Polly",
+		"icon": "aws",
+		"keywords": "Polly deleteLexicon Polly"
+	},
+	{
+		"name": "describeVoices",
+		"service": "Polly",
+		"serviceFullName": "Polly",
+		"icon": "aws",
+		"keywords": "Polly describeVoices Polly"
+	},
+	{
+		"name": "getLexicon",
+		"service": "Polly",
+		"serviceFullName": "Polly",
+		"icon": "aws",
+		"keywords": "Polly getLexicon Polly"
+	},
+	{
+		"name": "listLexicons",
+		"service": "Polly",
+		"serviceFullName": "Polly",
+		"icon": "aws",
+		"keywords": "Polly listLexicons Polly"
+	},
+	{
+		"name": "putLexicon",
+		"service": "Polly",
+		"serviceFullName": "Polly",
+		"icon": "aws",
+		"keywords": "Polly putLexicon Polly"
+	},
+	{
+		"name": "synthesizeSpeech",
+		"service": "Polly",
+		"serviceFullName": "Polly",
+		"icon": "aws",
+		"keywords": "Polly synthesizeSpeech Polly"
 	},
 	{
 		"name": "addRoleToDBCluster",
@@ -12740,6 +14273,83 @@
 		"keywords": "Redshift rotateEncryptionKey Redshift"
 	},
 	{
+		"name": "compareFaces",
+		"service": "Rekognition",
+		"serviceFullName": "Rekognition",
+		"icon": "aws",
+		"keywords": "Rekognition compareFaces Rekognition"
+	},
+	{
+		"name": "createCollection",
+		"service": "Rekognition",
+		"serviceFullName": "Rekognition",
+		"icon": "aws",
+		"keywords": "Rekognition createCollection Rekognition"
+	},
+	{
+		"name": "deleteCollection",
+		"service": "Rekognition",
+		"serviceFullName": "Rekognition",
+		"icon": "aws",
+		"keywords": "Rekognition deleteCollection Rekognition"
+	},
+	{
+		"name": "deleteFaces",
+		"service": "Rekognition",
+		"serviceFullName": "Rekognition",
+		"icon": "aws",
+		"keywords": "Rekognition deleteFaces Rekognition"
+	},
+	{
+		"name": "detectFaces",
+		"service": "Rekognition",
+		"serviceFullName": "Rekognition",
+		"icon": "aws",
+		"keywords": "Rekognition detectFaces Rekognition"
+	},
+	{
+		"name": "detectLabels",
+		"service": "Rekognition",
+		"serviceFullName": "Rekognition",
+		"icon": "aws",
+		"keywords": "Rekognition detectLabels Rekognition"
+	},
+	{
+		"name": "indexFaces",
+		"service": "Rekognition",
+		"serviceFullName": "Rekognition",
+		"icon": "aws",
+		"keywords": "Rekognition indexFaces Rekognition"
+	},
+	{
+		"name": "listCollections",
+		"service": "Rekognition",
+		"serviceFullName": "Rekognition",
+		"icon": "aws",
+		"keywords": "Rekognition listCollections Rekognition"
+	},
+	{
+		"name": "listFaces",
+		"service": "Rekognition",
+		"serviceFullName": "Rekognition",
+		"icon": "aws",
+		"keywords": "Rekognition listFaces Rekognition"
+	},
+	{
+		"name": "searchFaces",
+		"service": "Rekognition",
+		"serviceFullName": "Rekognition",
+		"icon": "aws",
+		"keywords": "Rekognition searchFaces Rekognition"
+	},
+	{
+		"name": "searchFacesByImage",
+		"service": "Rekognition",
+		"serviceFullName": "Rekognition",
+		"icon": "aws",
+		"keywords": "Rekognition searchFacesByImage Rekognition"
+	},
+	{
 		"name": "associateVPCWithHostedZone",
 		"service": "Route53",
 		"serviceFullName": "Route 53",
@@ -12803,6 +14413,13 @@
 		"keywords": "Route53 createTrafficPolicyVersion Route 53"
 	},
 	{
+		"name": "createVPCAssociationAuthorization",
+		"service": "Route53",
+		"serviceFullName": "Route 53",
+		"icon": "Route53",
+		"keywords": "Route53 createVPCAssociationAuthorization Route 53"
+	},
+	{
 		"name": "deleteHealthCheck",
 		"service": "Route53",
 		"serviceFullName": "Route 53",
@@ -12838,6 +14455,13 @@
 		"keywords": "Route53 deleteTrafficPolicyInstance Route 53"
 	},
 	{
+		"name": "deleteVPCAssociationAuthorization",
+		"service": "Route53",
+		"serviceFullName": "Route 53",
+		"icon": "Route53",
+		"keywords": "Route53 deleteVPCAssociationAuthorization Route 53"
+	},
+	{
 		"name": "disassociateVPCFromHostedZone",
 		"service": "Route53",
 		"serviceFullName": "Route 53",
@@ -12850,13 +14474,6 @@
 		"serviceFullName": "Route 53",
 		"icon": "Route53",
 		"keywords": "Route53 getChange Route 53"
-	},
-	{
-		"name": "getChangeDetails",
-		"service": "Route53",
-		"serviceFullName": "Route 53",
-		"icon": "Route53",
-		"keywords": "Route53 getChangeDetails Route 53"
 	},
 	{
 		"name": "getCheckerIpRanges",
@@ -12941,20 +14558,6 @@
 		"serviceFullName": "Route 53",
 		"icon": "Route53",
 		"keywords": "Route53 getTrafficPolicyInstanceCount Route 53"
-	},
-	{
-		"name": "listChangeBatchesByHostedZone",
-		"service": "Route53",
-		"serviceFullName": "Route 53",
-		"icon": "Route53",
-		"keywords": "Route53 listChangeBatchesByHostedZone Route 53"
-	},
-	{
-		"name": "listChangeBatchesByRRSet",
-		"service": "Route53",
-		"serviceFullName": "Route 53",
-		"icon": "Route53",
-		"keywords": "Route53 listChangeBatchesByRRSet Route 53"
 	},
 	{
 		"name": "listGeoLocations",
@@ -13046,6 +14649,13 @@
 		"serviceFullName": "Route 53",
 		"icon": "Route53",
 		"keywords": "Route53 listTrafficPolicyVersions Route 53"
+	},
+	{
+		"name": "listVPCAssociationAuthorizations",
+		"service": "Route53",
+		"serviceFullName": "Route 53",
+		"icon": "Route53",
+		"keywords": "Route53 listVPCAssociationAuthorizations Route 53"
 	},
 	{
 		"name": "testDNSAnswer",
@@ -13286,6 +14896,13 @@
 		"keywords": "S3 deleteBucket Simple Storage Service"
 	},
 	{
+		"name": "deleteBucketAnalyticsConfiguration",
+		"service": "S3",
+		"serviceFullName": "Simple Storage Service",
+		"icon": "S3",
+		"keywords": "S3 deleteBucketAnalyticsConfiguration Simple Storage Service"
+	},
+	{
 		"name": "deleteBucketCors",
 		"service": "S3",
 		"serviceFullName": "Simple Storage Service",
@@ -13293,11 +14910,25 @@
 		"keywords": "S3 deleteBucketCors Simple Storage Service"
 	},
 	{
+		"name": "deleteBucketInventoryConfiguration",
+		"service": "S3",
+		"serviceFullName": "Simple Storage Service",
+		"icon": "S3",
+		"keywords": "S3 deleteBucketInventoryConfiguration Simple Storage Service"
+	},
+	{
 		"name": "deleteBucketLifecycle",
 		"service": "S3",
 		"serviceFullName": "Simple Storage Service",
 		"icon": "S3",
 		"keywords": "S3 deleteBucketLifecycle Simple Storage Service"
+	},
+	{
+		"name": "deleteBucketMetricsConfiguration",
+		"service": "S3",
+		"serviceFullName": "Simple Storage Service",
+		"icon": "S3",
+		"keywords": "S3 deleteBucketMetricsConfiguration Simple Storage Service"
 	},
 	{
 		"name": "deleteBucketPolicy",
@@ -13335,6 +14966,13 @@
 		"keywords": "S3 deleteObject Simple Storage Service"
 	},
 	{
+		"name": "deleteObjectTagging",
+		"service": "S3",
+		"serviceFullName": "Simple Storage Service",
+		"icon": "S3",
+		"keywords": "S3 deleteObjectTagging Simple Storage Service"
+	},
+	{
 		"name": "deleteObjects",
 		"service": "S3",
 		"serviceFullName": "Simple Storage Service",
@@ -13356,11 +14994,25 @@
 		"keywords": "S3 getBucketAcl Simple Storage Service"
 	},
 	{
+		"name": "getBucketAnalyticsConfiguration",
+		"service": "S3",
+		"serviceFullName": "Simple Storage Service",
+		"icon": "S3",
+		"keywords": "S3 getBucketAnalyticsConfiguration Simple Storage Service"
+	},
+	{
 		"name": "getBucketCors",
 		"service": "S3",
 		"serviceFullName": "Simple Storage Service",
 		"icon": "S3",
 		"keywords": "S3 getBucketCors Simple Storage Service"
+	},
+	{
+		"name": "getBucketInventoryConfiguration",
+		"service": "S3",
+		"serviceFullName": "Simple Storage Service",
+		"icon": "S3",
+		"keywords": "S3 getBucketInventoryConfiguration Simple Storage Service"
 	},
 	{
 		"name": "getBucketLifecycle",
@@ -13389,6 +15041,13 @@
 		"serviceFullName": "Simple Storage Service",
 		"icon": "S3",
 		"keywords": "S3 getBucketLogging Simple Storage Service"
+	},
+	{
+		"name": "getBucketMetricsConfiguration",
+		"service": "S3",
+		"serviceFullName": "Simple Storage Service",
+		"icon": "S3",
+		"keywords": "S3 getBucketMetricsConfiguration Simple Storage Service"
 	},
 	{
 		"name": "getBucketNotification",
@@ -13461,6 +15120,13 @@
 		"keywords": "S3 getObjectAcl Simple Storage Service"
 	},
 	{
+		"name": "getObjectTagging",
+		"service": "S3",
+		"serviceFullName": "Simple Storage Service",
+		"icon": "S3",
+		"keywords": "S3 getObjectTagging Simple Storage Service"
+	},
+	{
 		"name": "getObjectTorrent",
 		"service": "S3",
 		"serviceFullName": "Simple Storage Service",
@@ -13480,6 +15146,27 @@
 		"serviceFullName": "Simple Storage Service",
 		"icon": "S3",
 		"keywords": "S3 headObject Simple Storage Service"
+	},
+	{
+		"name": "listBucketAnalyticsConfigurations",
+		"service": "S3",
+		"serviceFullName": "Simple Storage Service",
+		"icon": "S3",
+		"keywords": "S3 listBucketAnalyticsConfigurations Simple Storage Service"
+	},
+	{
+		"name": "listBucketInventoryConfigurations",
+		"service": "S3",
+		"serviceFullName": "Simple Storage Service",
+		"icon": "S3",
+		"keywords": "S3 listBucketInventoryConfigurations Simple Storage Service"
+	},
+	{
+		"name": "listBucketMetricsConfigurations",
+		"service": "S3",
+		"serviceFullName": "Simple Storage Service",
+		"icon": "S3",
+		"keywords": "S3 listBucketMetricsConfigurations Simple Storage Service"
 	},
 	{
 		"name": "listBuckets",
@@ -13538,11 +15225,25 @@
 		"keywords": "S3 putBucketAcl Simple Storage Service"
 	},
 	{
+		"name": "putBucketAnalyticsConfiguration",
+		"service": "S3",
+		"serviceFullName": "Simple Storage Service",
+		"icon": "S3",
+		"keywords": "S3 putBucketAnalyticsConfiguration Simple Storage Service"
+	},
+	{
 		"name": "putBucketCors",
 		"service": "S3",
 		"serviceFullName": "Simple Storage Service",
 		"icon": "S3",
 		"keywords": "S3 putBucketCors Simple Storage Service"
+	},
+	{
+		"name": "putBucketInventoryConfiguration",
+		"service": "S3",
+		"serviceFullName": "Simple Storage Service",
+		"icon": "S3",
+		"keywords": "S3 putBucketInventoryConfiguration Simple Storage Service"
 	},
 	{
 		"name": "putBucketLifecycle",
@@ -13564,6 +15265,13 @@
 		"serviceFullName": "Simple Storage Service",
 		"icon": "S3",
 		"keywords": "S3 putBucketLogging Simple Storage Service"
+	},
+	{
+		"name": "putBucketMetricsConfiguration",
+		"service": "S3",
+		"serviceFullName": "Simple Storage Service",
+		"icon": "S3",
+		"keywords": "S3 putBucketMetricsConfiguration Simple Storage Service"
 	},
 	{
 		"name": "putBucketNotification",
@@ -13634,6 +15342,13 @@
 		"serviceFullName": "Simple Storage Service",
 		"icon": "S3",
 		"keywords": "S3 putObjectAcl Simple Storage Service"
+	},
+	{
+		"name": "putObjectTagging",
+		"service": "S3",
+		"serviceFullName": "Simple Storage Service",
+		"icon": "S3",
+		"keywords": "S3 putObjectTagging Simple Storage Service"
 	},
 	{
 		"name": "restoreObject",
@@ -13727,6 +15442,111 @@
 		"keywords": "SimpleDB select SimpleDB"
 	},
 	{
+		"name": "acceptPortfolioShare",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog acceptPortfolioShare Service Catalog"
+	},
+	{
+		"name": "associatePrincipalWithPortfolio",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog associatePrincipalWithPortfolio Service Catalog"
+	},
+	{
+		"name": "associateProductWithPortfolio",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog associateProductWithPortfolio Service Catalog"
+	},
+	{
+		"name": "createConstraint",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog createConstraint Service Catalog"
+	},
+	{
+		"name": "createPortfolio",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog createPortfolio Service Catalog"
+	},
+	{
+		"name": "createPortfolioShare",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog createPortfolioShare Service Catalog"
+	},
+	{
+		"name": "createProduct",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog createProduct Service Catalog"
+	},
+	{
+		"name": "createProvisioningArtifact",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog createProvisioningArtifact Service Catalog"
+	},
+	{
+		"name": "deleteConstraint",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog deleteConstraint Service Catalog"
+	},
+	{
+		"name": "deletePortfolio",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog deletePortfolio Service Catalog"
+	},
+	{
+		"name": "deletePortfolioShare",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog deletePortfolioShare Service Catalog"
+	},
+	{
+		"name": "deleteProduct",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog deleteProduct Service Catalog"
+	},
+	{
+		"name": "deleteProvisioningArtifact",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog deleteProvisioningArtifact Service Catalog"
+	},
+	{
+		"name": "describeConstraint",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog describeConstraint Service Catalog"
+	},
+	{
+		"name": "describePortfolio",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog describePortfolio Service Catalog"
+	},
+	{
 		"name": "describeProduct",
 		"service": "ServiceCatalog",
 		"serviceFullName": "Service Catalog",
@@ -13734,11 +15554,25 @@
 		"keywords": "ServiceCatalog describeProduct Service Catalog"
 	},
 	{
+		"name": "describeProductAsAdmin",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog describeProductAsAdmin Service Catalog"
+	},
+	{
 		"name": "describeProductView",
 		"service": "ServiceCatalog",
 		"serviceFullName": "Service Catalog",
 		"icon": "ServiceCatalog",
 		"keywords": "ServiceCatalog describeProductView Service Catalog"
+	},
+	{
+		"name": "describeProvisioningArtifact",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog describeProvisioningArtifact Service Catalog"
 	},
 	{
 		"name": "describeProvisioningParameters",
@@ -13755,11 +15589,74 @@
 		"keywords": "ServiceCatalog describeRecord Service Catalog"
 	},
 	{
+		"name": "disassociatePrincipalFromPortfolio",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog disassociatePrincipalFromPortfolio Service Catalog"
+	},
+	{
+		"name": "disassociateProductFromPortfolio",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog disassociateProductFromPortfolio Service Catalog"
+	},
+	{
+		"name": "listAcceptedPortfolioShares",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog listAcceptedPortfolioShares Service Catalog"
+	},
+	{
+		"name": "listConstraintsForPortfolio",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog listConstraintsForPortfolio Service Catalog"
+	},
+	{
 		"name": "listLaunchPaths",
 		"service": "ServiceCatalog",
 		"serviceFullName": "Service Catalog",
 		"icon": "ServiceCatalog",
 		"keywords": "ServiceCatalog listLaunchPaths Service Catalog"
+	},
+	{
+		"name": "listPortfolioAccess",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog listPortfolioAccess Service Catalog"
+	},
+	{
+		"name": "listPortfolios",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog listPortfolios Service Catalog"
+	},
+	{
+		"name": "listPortfoliosForProduct",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog listPortfoliosForProduct Service Catalog"
+	},
+	{
+		"name": "listPrincipalsForPortfolio",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog listPrincipalsForPortfolio Service Catalog"
+	},
+	{
+		"name": "listProvisioningArtifacts",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog listProvisioningArtifacts Service Catalog"
 	},
 	{
 		"name": "listRecordHistory",
@@ -13776,6 +15673,13 @@
 		"keywords": "ServiceCatalog provisionProduct Service Catalog"
 	},
 	{
+		"name": "rejectPortfolioShare",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog rejectPortfolioShare Service Catalog"
+	},
+	{
 		"name": "scanProvisionedProducts",
 		"service": "ServiceCatalog",
 		"serviceFullName": "Service Catalog",
@@ -13790,6 +15694,13 @@
 		"keywords": "ServiceCatalog searchProducts Service Catalog"
 	},
 	{
+		"name": "searchProductsAsAdmin",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog searchProductsAsAdmin Service Catalog"
+	},
+	{
 		"name": "terminateProvisionedProduct",
 		"service": "ServiceCatalog",
 		"serviceFullName": "Service Catalog",
@@ -13797,11 +15708,102 @@
 		"keywords": "ServiceCatalog terminateProvisionedProduct Service Catalog"
 	},
 	{
+		"name": "updateConstraint",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog updateConstraint Service Catalog"
+	},
+	{
+		"name": "updatePortfolio",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog updatePortfolio Service Catalog"
+	},
+	{
+		"name": "updateProduct",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog updateProduct Service Catalog"
+	},
+	{
 		"name": "updateProvisionedProduct",
 		"service": "ServiceCatalog",
 		"serviceFullName": "Service Catalog",
 		"icon": "ServiceCatalog",
 		"keywords": "ServiceCatalog updateProvisionedProduct Service Catalog"
+	},
+	{
+		"name": "updateProvisioningArtifact",
+		"service": "ServiceCatalog",
+		"serviceFullName": "Service Catalog",
+		"icon": "ServiceCatalog",
+		"keywords": "ServiceCatalog updateProvisioningArtifact Service Catalog"
+	},
+	{
+		"name": "createProtection",
+		"service": "Shield",
+		"serviceFullName": "Shield",
+		"icon": "aws",
+		"keywords": "Shield createProtection Shield"
+	},
+	{
+		"name": "createSubscription",
+		"service": "Shield",
+		"serviceFullName": "Shield",
+		"icon": "aws",
+		"keywords": "Shield createSubscription Shield"
+	},
+	{
+		"name": "deleteProtection",
+		"service": "Shield",
+		"serviceFullName": "Shield",
+		"icon": "aws",
+		"keywords": "Shield deleteProtection Shield"
+	},
+	{
+		"name": "deleteSubscription",
+		"service": "Shield",
+		"serviceFullName": "Shield",
+		"icon": "aws",
+		"keywords": "Shield deleteSubscription Shield"
+	},
+	{
+		"name": "describeAttack",
+		"service": "Shield",
+		"serviceFullName": "Shield",
+		"icon": "aws",
+		"keywords": "Shield describeAttack Shield"
+	},
+	{
+		"name": "describeProtection",
+		"service": "Shield",
+		"serviceFullName": "Shield",
+		"icon": "aws",
+		"keywords": "Shield describeProtection Shield"
+	},
+	{
+		"name": "describeSubscription",
+		"service": "Shield",
+		"serviceFullName": "Shield",
+		"icon": "aws",
+		"keywords": "Shield describeSubscription Shield"
+	},
+	{
+		"name": "listAttacks",
+		"service": "Shield",
+		"serviceFullName": "Shield",
+		"icon": "aws",
+		"keywords": "Shield listAttacks Shield"
+	},
+	{
+		"name": "listProtections",
+		"service": "Shield",
+		"serviceFullName": "Shield",
+		"icon": "aws",
+		"keywords": "Shield listProtections Shield"
 	},
 	{
 		"name": "createReplicationJob",
@@ -13881,6 +15883,13 @@
 		"keywords": "SMS updateReplicationJob Server Migration Service"
 	},
 	{
+		"name": "cancelCluster",
+		"service": "Snowball",
+		"serviceFullName": "Import/Export Snowball",
+		"icon": "Snowball",
+		"keywords": "Snowball cancelCluster Import/Export Snowball"
+	},
+	{
 		"name": "cancelJob",
 		"service": "Snowball",
 		"serviceFullName": "Import/Export Snowball",
@@ -13893,6 +15902,13 @@
 		"serviceFullName": "Import/Export Snowball",
 		"icon": "Snowball",
 		"keywords": "Snowball createAddress Import/Export Snowball"
+	},
+	{
+		"name": "createCluster",
+		"service": "Snowball",
+		"serviceFullName": "Import/Export Snowball",
+		"icon": "Snowball",
+		"keywords": "Snowball createCluster Import/Export Snowball"
 	},
 	{
 		"name": "createJob",
@@ -13914,6 +15930,13 @@
 		"serviceFullName": "Import/Export Snowball",
 		"icon": "Snowball",
 		"keywords": "Snowball describeAddresses Import/Export Snowball"
+	},
+	{
+		"name": "describeCluster",
+		"service": "Snowball",
+		"serviceFullName": "Import/Export Snowball",
+		"icon": "Snowball",
+		"keywords": "Snowball describeCluster Import/Export Snowball"
 	},
 	{
 		"name": "describeJob",
@@ -13944,11 +15967,32 @@
 		"keywords": "Snowball getSnowballUsage Import/Export Snowball"
 	},
 	{
+		"name": "listClusterJobs",
+		"service": "Snowball",
+		"serviceFullName": "Import/Export Snowball",
+		"icon": "Snowball",
+		"keywords": "Snowball listClusterJobs Import/Export Snowball"
+	},
+	{
+		"name": "listClusters",
+		"service": "Snowball",
+		"serviceFullName": "Import/Export Snowball",
+		"icon": "Snowball",
+		"keywords": "Snowball listClusters Import/Export Snowball"
+	},
+	{
 		"name": "listJobs",
 		"service": "Snowball",
 		"serviceFullName": "Import/Export Snowball",
 		"icon": "Snowball",
 		"keywords": "Snowball listJobs Import/Export Snowball"
+	},
+	{
+		"name": "updateCluster",
+		"service": "Snowball",
+		"serviceFullName": "Import/Export Snowball",
+		"icon": "Snowball",
+		"keywords": "Snowball updateCluster Import/Export Snowball"
 	},
 	{
 		"name": "updateJob",
@@ -14289,184 +16333,681 @@
 	{
 		"name": "addTagsToResource",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM addTagsToResource Simple Systems Management Service"
+		"keywords": "SSM addTagsToResource Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "cancelCommand",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM cancelCommand Simple Systems Management Service"
+		"keywords": "SSM cancelCommand Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "createActivation",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM createActivation Simple Systems Management Service"
+		"keywords": "SSM createActivation Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "createAssociation",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM createAssociation Simple Systems Management Service"
+		"keywords": "SSM createAssociation Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "createAssociationBatch",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM createAssociationBatch Simple Systems Management Service"
+		"keywords": "SSM createAssociationBatch Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "createDocument",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM createDocument Simple Systems Management Service"
+		"keywords": "SSM createDocument Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "createMaintenanceWindow",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM createMaintenanceWindow Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "createPatchBaseline",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM createPatchBaseline Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "deleteActivation",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM deleteActivation Simple Systems Management Service"
+		"keywords": "SSM deleteActivation Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "deleteAssociation",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM deleteAssociation Simple Systems Management Service"
+		"keywords": "SSM deleteAssociation Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "deleteDocument",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM deleteDocument Simple Systems Management Service"
+		"keywords": "SSM deleteDocument Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "deleteMaintenanceWindow",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM deleteMaintenanceWindow Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "deleteParameter",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM deleteParameter Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "deletePatchBaseline",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM deletePatchBaseline Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "deregisterManagedInstance",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM deregisterManagedInstance Simple Systems Management Service"
+		"keywords": "SSM deregisterManagedInstance Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "deregisterPatchBaselineForPatchGroup",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM deregisterPatchBaselineForPatchGroup Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "deregisterTargetFromMaintenanceWindow",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM deregisterTargetFromMaintenanceWindow Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "deregisterTaskFromMaintenanceWindow",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM deregisterTaskFromMaintenanceWindow Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "describeActivations",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM describeActivations Simple Systems Management Service"
+		"keywords": "SSM describeActivations Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "describeAssociation",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM describeAssociation Simple Systems Management Service"
+		"keywords": "SSM describeAssociation Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describeAutomationExecutions",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describeAutomationExecutions Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describeAvailablePatches",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describeAvailablePatches Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "describeDocument",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM describeDocument Simple Systems Management Service"
+		"keywords": "SSM describeDocument Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "describeDocumentPermission",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM describeDocumentPermission Simple Systems Management Service"
+		"keywords": "SSM describeDocumentPermission Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describeEffectiveInstanceAssociations",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describeEffectiveInstanceAssociations Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describeEffectivePatchesForPatchBaseline",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describeEffectivePatchesForPatchBaseline Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describeInstanceAssociationsStatus",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describeInstanceAssociationsStatus Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "describeInstanceInformation",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM describeInstanceInformation Simple Systems Management Service"
+		"keywords": "SSM describeInstanceInformation Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describeInstancePatchStates",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describeInstancePatchStates Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describeInstancePatchStatesForPatchGroup",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describeInstancePatchStatesForPatchGroup Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describeInstancePatches",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describeInstancePatches Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describeMaintenanceWindowExecutionTaskInvocations",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describeMaintenanceWindowExecutionTaskInvocations Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describeMaintenanceWindowExecutionTasks",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describeMaintenanceWindowExecutionTasks Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describeMaintenanceWindowExecutions",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describeMaintenanceWindowExecutions Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describeMaintenanceWindowTargets",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describeMaintenanceWindowTargets Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describeMaintenanceWindowTasks",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describeMaintenanceWindowTasks Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describeMaintenanceWindows",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describeMaintenanceWindows Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describeParameters",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describeParameters Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describePatchBaselines",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describePatchBaselines Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describePatchGroupState",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describePatchGroupState Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "describePatchGroups",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM describePatchGroups Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "getAutomationExecution",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM getAutomationExecution Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "getCommandInvocation",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM getCommandInvocation Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "getDefaultPatchBaseline",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM getDefaultPatchBaseline Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "getDeployablePatchSnapshotForInstance",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM getDeployablePatchSnapshotForInstance Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "getDocument",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM getDocument Simple Systems Management Service"
+		"keywords": "SSM getDocument Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "getInventory",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM getInventory Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "getInventorySchema",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM getInventorySchema Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "getMaintenanceWindow",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM getMaintenanceWindow Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "getMaintenanceWindowExecution",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM getMaintenanceWindowExecution Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "getMaintenanceWindowExecutionTask",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM getMaintenanceWindowExecutionTask Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "getParameterHistory",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM getParameterHistory Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "getParameters",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM getParameters Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "getPatchBaseline",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM getPatchBaseline Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "getPatchBaselineForPatchGroup",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM getPatchBaselineForPatchGroup Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "listAssociations",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM listAssociations Simple Systems Management Service"
+		"keywords": "SSM listAssociations Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "listCommandInvocations",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM listCommandInvocations Simple Systems Management Service"
+		"keywords": "SSM listCommandInvocations Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "listCommands",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM listCommands Simple Systems Management Service"
+		"keywords": "SSM listCommands Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "listDocumentVersions",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM listDocumentVersions Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "listDocuments",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM listDocuments Simple Systems Management Service"
+		"keywords": "SSM listDocuments Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "listInventoryEntries",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM listInventoryEntries Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "listTagsForResource",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM listTagsForResource Simple Systems Management Service"
+		"keywords": "SSM listTagsForResource Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "modifyDocumentPermission",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM modifyDocumentPermission Simple Systems Management Service"
+		"keywords": "SSM modifyDocumentPermission Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "putInventory",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM putInventory Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "putParameter",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM putParameter Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "registerDefaultPatchBaseline",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM registerDefaultPatchBaseline Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "registerPatchBaselineForPatchGroup",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM registerPatchBaselineForPatchGroup Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "registerTargetWithMaintenanceWindow",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM registerTargetWithMaintenanceWindow Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "registerTaskWithMaintenanceWindow",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM registerTaskWithMaintenanceWindow Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "removeTagsFromResource",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM removeTagsFromResource Simple Systems Management Service"
+		"keywords": "SSM removeTagsFromResource Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "sendCommand",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM sendCommand Simple Systems Management Service"
+		"keywords": "SSM sendCommand Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "startAutomationExecution",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM startAutomationExecution Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "stopAutomationExecution",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM stopAutomationExecution Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "updateAssociation",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM updateAssociation Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "updateAssociationStatus",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM updateAssociationStatus Simple Systems Management Service"
+		"keywords": "SSM updateAssociationStatus Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "updateDocument",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM updateDocument Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "updateDocumentDefaultVersion",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM updateDocumentDefaultVersion Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "updateMaintenanceWindow",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM updateMaintenanceWindow Simple Systems Manager (SSM)"
 	},
 	{
 		"name": "updateManagedInstanceRole",
 		"service": "SSM",
-		"serviceFullName": "Simple Systems Management Service",
+		"serviceFullName": "Simple Systems Manager (SSM)",
 		"icon": "aws",
-		"keywords": "SSM updateManagedInstanceRole Simple Systems Management Service"
+		"keywords": "SSM updateManagedInstanceRole Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "updatePatchBaseline",
+		"service": "SSM",
+		"serviceFullName": "Simple Systems Manager (SSM)",
+		"icon": "aws",
+		"keywords": "SSM updatePatchBaseline Simple Systems Manager (SSM)"
+	},
+	{
+		"name": "createActivity",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN createActivity Step Functions"
+	},
+	{
+		"name": "createStateMachine",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN createStateMachine Step Functions"
+	},
+	{
+		"name": "deleteActivity",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN deleteActivity Step Functions"
+	},
+	{
+		"name": "deleteStateMachine",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN deleteStateMachine Step Functions"
+	},
+	{
+		"name": "describeActivity",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN describeActivity Step Functions"
+	},
+	{
+		"name": "describeExecution",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN describeExecution Step Functions"
+	},
+	{
+		"name": "describeStateMachine",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN describeStateMachine Step Functions"
+	},
+	{
+		"name": "getActivityTask",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN getActivityTask Step Functions"
+	},
+	{
+		"name": "getExecutionHistory",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN getExecutionHistory Step Functions"
+	},
+	{
+		"name": "listActivities",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN listActivities Step Functions"
+	},
+	{
+		"name": "listExecutions",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN listExecutions Step Functions"
+	},
+	{
+		"name": "listStateMachines",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN listStateMachines Step Functions"
+	},
+	{
+		"name": "sendTaskFailure",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN sendTaskFailure Step Functions"
+	},
+	{
+		"name": "sendTaskHeartbeat",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN sendTaskHeartbeat Step Functions"
+	},
+	{
+		"name": "sendTaskSuccess",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN sendTaskSuccess Step Functions"
+	},
+	{
+		"name": "startExecution",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN startExecution Step Functions"
+	},
+	{
+		"name": "stopExecution",
+		"service": "SFN",
+		"serviceFullName": "Step Functions",
+		"icon": "aws",
+		"keywords": "SFN stopExecution Step Functions"
 	},
 	{
 		"name": "activateGateway",
@@ -14525,6 +17066,13 @@
 		"keywords": "StorageGateway createCachediSCSIVolume Storage Gateway"
 	},
 	{
+		"name": "createNFSFileShare",
+		"service": "StorageGateway",
+		"serviceFullName": "Storage Gateway",
+		"icon": "StorageGateway",
+		"keywords": "StorageGateway createNFSFileShare Storage Gateway"
+	},
+	{
 		"name": "createSnapshot",
 		"service": "StorageGateway",
 		"serviceFullName": "Storage Gateway",
@@ -14572,6 +17120,13 @@
 		"serviceFullName": "Storage Gateway",
 		"icon": "StorageGateway",
 		"keywords": "StorageGateway deleteChapCredentials Storage Gateway"
+	},
+	{
+		"name": "deleteFileShare",
+		"service": "StorageGateway",
+		"serviceFullName": "Storage Gateway",
+		"icon": "StorageGateway",
+		"keywords": "StorageGateway deleteFileShare Storage Gateway"
 	},
 	{
 		"name": "deleteGateway",
@@ -14651,6 +17206,13 @@
 		"keywords": "StorageGateway describeMaintenanceStartTime Storage Gateway"
 	},
 	{
+		"name": "describeNFSFileShares",
+		"service": "StorageGateway",
+		"serviceFullName": "Storage Gateway",
+		"icon": "StorageGateway",
+		"keywords": "StorageGateway describeNFSFileShares Storage Gateway"
+	},
+	{
 		"name": "describeSnapshotSchedule",
 		"service": "StorageGateway",
 		"serviceFullName": "Storage Gateway",
@@ -14712,6 +17274,13 @@
 		"serviceFullName": "Storage Gateway",
 		"icon": "StorageGateway",
 		"keywords": "StorageGateway disableGateway Storage Gateway"
+	},
+	{
+		"name": "listFileShares",
+		"service": "StorageGateway",
+		"serviceFullName": "Storage Gateway",
+		"icon": "StorageGateway",
+		"keywords": "StorageGateway listFileShares Storage Gateway"
 	},
 	{
 		"name": "listGateways",
@@ -14845,6 +17414,13 @@
 		"serviceFullName": "Storage Gateway",
 		"icon": "StorageGateway",
 		"keywords": "StorageGateway updateMaintenanceStartTime Storage Gateway"
+	},
+	{
+		"name": "updateNFSFileShare",
+		"service": "StorageGateway",
+		"serviceFullName": "Storage Gateway",
+		"icon": "StorageGateway",
+		"keywords": "StorageGateway updateNFSFileShare Storage Gateway"
 	},
 	{
 		"name": "updateSnapshotSchedule",
@@ -15519,6 +18095,300 @@
 		"keywords": "WAF updateXssMatchSet WAF"
 	},
 	{
+		"name": "associateWebACL",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional associateWebACL WAF Regional"
+	},
+	{
+		"name": "createByteMatchSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional createByteMatchSet WAF Regional"
+	},
+	{
+		"name": "createIPSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional createIPSet WAF Regional"
+	},
+	{
+		"name": "createRule",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional createRule WAF Regional"
+	},
+	{
+		"name": "createSizeConstraintSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional createSizeConstraintSet WAF Regional"
+	},
+	{
+		"name": "createSqlInjectionMatchSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional createSqlInjectionMatchSet WAF Regional"
+	},
+	{
+		"name": "createWebACL",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional createWebACL WAF Regional"
+	},
+	{
+		"name": "createXssMatchSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional createXssMatchSet WAF Regional"
+	},
+	{
+		"name": "deleteByteMatchSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional deleteByteMatchSet WAF Regional"
+	},
+	{
+		"name": "deleteIPSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional deleteIPSet WAF Regional"
+	},
+	{
+		"name": "deleteRule",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional deleteRule WAF Regional"
+	},
+	{
+		"name": "deleteSizeConstraintSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional deleteSizeConstraintSet WAF Regional"
+	},
+	{
+		"name": "deleteSqlInjectionMatchSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional deleteSqlInjectionMatchSet WAF Regional"
+	},
+	{
+		"name": "deleteWebACL",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional deleteWebACL WAF Regional"
+	},
+	{
+		"name": "deleteXssMatchSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional deleteXssMatchSet WAF Regional"
+	},
+	{
+		"name": "disassociateWebACL",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional disassociateWebACL WAF Regional"
+	},
+	{
+		"name": "getByteMatchSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional getByteMatchSet WAF Regional"
+	},
+	{
+		"name": "getChangeToken",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional getChangeToken WAF Regional"
+	},
+	{
+		"name": "getChangeTokenStatus",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional getChangeTokenStatus WAF Regional"
+	},
+	{
+		"name": "getIPSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional getIPSet WAF Regional"
+	},
+	{
+		"name": "getRule",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional getRule WAF Regional"
+	},
+	{
+		"name": "getSampledRequests",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional getSampledRequests WAF Regional"
+	},
+	{
+		"name": "getSizeConstraintSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional getSizeConstraintSet WAF Regional"
+	},
+	{
+		"name": "getSqlInjectionMatchSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional getSqlInjectionMatchSet WAF Regional"
+	},
+	{
+		"name": "getWebACL",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional getWebACL WAF Regional"
+	},
+	{
+		"name": "getWebACLForResource",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional getWebACLForResource WAF Regional"
+	},
+	{
+		"name": "getXssMatchSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional getXssMatchSet WAF Regional"
+	},
+	{
+		"name": "listByteMatchSets",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional listByteMatchSets WAF Regional"
+	},
+	{
+		"name": "listIPSets",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional listIPSets WAF Regional"
+	},
+	{
+		"name": "listResourcesForWebACL",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional listResourcesForWebACL WAF Regional"
+	},
+	{
+		"name": "listRules",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional listRules WAF Regional"
+	},
+	{
+		"name": "listSizeConstraintSets",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional listSizeConstraintSets WAF Regional"
+	},
+	{
+		"name": "listSqlInjectionMatchSets",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional listSqlInjectionMatchSets WAF Regional"
+	},
+	{
+		"name": "listWebACLs",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional listWebACLs WAF Regional"
+	},
+	{
+		"name": "listXssMatchSets",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional listXssMatchSets WAF Regional"
+	},
+	{
+		"name": "updateByteMatchSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional updateByteMatchSet WAF Regional"
+	},
+	{
+		"name": "updateIPSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional updateIPSet WAF Regional"
+	},
+	{
+		"name": "updateRule",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional updateRule WAF Regional"
+	},
+	{
+		"name": "updateSizeConstraintSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional updateSizeConstraintSet WAF Regional"
+	},
+	{
+		"name": "updateSqlInjectionMatchSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional updateSqlInjectionMatchSet WAF Regional"
+	},
+	{
+		"name": "updateWebACL",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional updateWebACL WAF Regional"
+	},
+	{
+		"name": "updateXssMatchSet",
+		"service": "WAFRegional",
+		"serviceFullName": "WAF Regional",
+		"icon": "aws",
+		"keywords": "WAFRegional updateXssMatchSet WAF Regional"
+	},
+	{
 		"name": "createTags",
 		"service": "WorkSpaces",
 		"serviceFullName": "WorkSpaces",
@@ -15615,5 +18485,47 @@
 		"serviceFullName": "WorkSpaces",
 		"icon": "WorkSpaces",
 		"keywords": "WorkSpaces terminateWorkspaces WorkSpaces"
+	},
+	{
+		"name": "batchGetTraces",
+		"service": "X-Ray",
+		"serviceFullName": "X-Ray",
+		"icon": "aws",
+		"keywords": "X-Ray batchGetTraces X-Ray"
+	},
+	{
+		"name": "getServiceGraph",
+		"service": "X-Ray",
+		"serviceFullName": "X-Ray",
+		"icon": "aws",
+		"keywords": "X-Ray getServiceGraph X-Ray"
+	},
+	{
+		"name": "getTraceGraph",
+		"service": "X-Ray",
+		"serviceFullName": "X-Ray",
+		"icon": "aws",
+		"keywords": "X-Ray getTraceGraph X-Ray"
+	},
+	{
+		"name": "getTraceSummaries",
+		"service": "X-Ray",
+		"serviceFullName": "X-Ray",
+		"icon": "aws",
+		"keywords": "X-Ray getTraceSummaries X-Ray"
+	},
+	{
+		"name": "putTelemetryRecords",
+		"service": "X-Ray",
+		"serviceFullName": "X-Ray",
+		"icon": "aws",
+		"keywords": "X-Ray putTelemetryRecords X-Ray"
+	},
+	{
+		"name": "putTraceSegments",
+		"service": "X-Ray",
+		"serviceFullName": "X-Ray",
+		"icon": "aws",
+		"keywords": "X-Ray putTraceSegments X-Ray"
 	}
 ]
