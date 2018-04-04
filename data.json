@@ -189,6 +189,13 @@
 		"keywords": "ACM updateCertificateOptions Certificate Manager"
 	},
 	{
+		"name": "associateContactWithAddressBook",
+		"service": "AlexaForBusiness",
+		"serviceFullName": "Alexa For Business",
+		"icon": "aws",
+		"keywords": "AlexaForBusiness associateContactWithAddressBook Alexa For Business"
+	},
+	{
 		"name": "associateDeviceWithRoom",
 		"service": "AlexaForBusiness",
 		"serviceFullName": "Alexa For Business",
@@ -201,6 +208,20 @@
 		"serviceFullName": "Alexa For Business",
 		"icon": "aws",
 		"keywords": "AlexaForBusiness associateSkillGroupWithRoom Alexa For Business"
+	},
+	{
+		"name": "createAddressBook",
+		"service": "AlexaForBusiness",
+		"serviceFullName": "Alexa For Business",
+		"icon": "aws",
+		"keywords": "AlexaForBusiness createAddressBook Alexa For Business"
+	},
+	{
+		"name": "createContact",
+		"service": "AlexaForBusiness",
+		"serviceFullName": "Alexa For Business",
+		"icon": "aws",
+		"keywords": "AlexaForBusiness createContact Alexa For Business"
 	},
 	{
 		"name": "createProfile",
@@ -229,6 +250,20 @@
 		"serviceFullName": "Alexa For Business",
 		"icon": "aws",
 		"keywords": "AlexaForBusiness createUser Alexa For Business"
+	},
+	{
+		"name": "deleteAddressBook",
+		"service": "AlexaForBusiness",
+		"serviceFullName": "Alexa For Business",
+		"icon": "aws",
+		"keywords": "AlexaForBusiness deleteAddressBook Alexa For Business"
+	},
+	{
+		"name": "deleteContact",
+		"service": "AlexaForBusiness",
+		"serviceFullName": "Alexa For Business",
+		"icon": "aws",
+		"keywords": "AlexaForBusiness deleteContact Alexa For Business"
 	},
 	{
 		"name": "deleteProfile",
@@ -266,6 +301,13 @@
 		"keywords": "AlexaForBusiness deleteUser Alexa For Business"
 	},
 	{
+		"name": "disassociateContactFromAddressBook",
+		"service": "AlexaForBusiness",
+		"serviceFullName": "Alexa For Business",
+		"icon": "aws",
+		"keywords": "AlexaForBusiness disassociateContactFromAddressBook Alexa For Business"
+	},
+	{
 		"name": "disassociateDeviceFromRoom",
 		"service": "AlexaForBusiness",
 		"serviceFullName": "Alexa For Business",
@@ -278,6 +320,20 @@
 		"serviceFullName": "Alexa For Business",
 		"icon": "aws",
 		"keywords": "AlexaForBusiness disassociateSkillGroupFromRoom Alexa For Business"
+	},
+	{
+		"name": "getAddressBook",
+		"service": "AlexaForBusiness",
+		"serviceFullName": "Alexa For Business",
+		"icon": "aws",
+		"keywords": "AlexaForBusiness getAddressBook Alexa For Business"
+	},
+	{
+		"name": "getContact",
+		"service": "AlexaForBusiness",
+		"serviceFullName": "Alexa For Business",
+		"icon": "aws",
+		"keywords": "AlexaForBusiness getContact Alexa For Business"
 	},
 	{
 		"name": "getDevice",
@@ -350,6 +406,20 @@
 		"keywords": "AlexaForBusiness revokeInvitation Alexa For Business"
 	},
 	{
+		"name": "searchAddressBooks",
+		"service": "AlexaForBusiness",
+		"serviceFullName": "Alexa For Business",
+		"icon": "aws",
+		"keywords": "AlexaForBusiness searchAddressBooks Alexa For Business"
+	},
+	{
+		"name": "searchContacts",
+		"service": "AlexaForBusiness",
+		"serviceFullName": "Alexa For Business",
+		"icon": "aws",
+		"keywords": "AlexaForBusiness searchContacts Alexa For Business"
+	},
+	{
 		"name": "searchDevices",
 		"service": "AlexaForBusiness",
 		"serviceFullName": "Alexa For Business",
@@ -411,6 +481,20 @@
 		"serviceFullName": "Alexa For Business",
 		"icon": "aws",
 		"keywords": "AlexaForBusiness untagResource Alexa For Business"
+	},
+	{
+		"name": "updateAddressBook",
+		"service": "AlexaForBusiness",
+		"serviceFullName": "Alexa For Business",
+		"icon": "aws",
+		"keywords": "AlexaForBusiness updateAddressBook Alexa For Business"
+	},
+	{
+		"name": "updateContact",
+		"service": "AlexaForBusiness",
+		"serviceFullName": "Alexa For Business",
+		"icon": "aws",
+		"keywords": "AlexaForBusiness updateContact Alexa For Business"
 	},
 	{
 		"name": "updateDevice",
@@ -3297,11 +3381,32 @@
 		"keywords": "CloudFront createDistributionWithTags CloudFront"
 	},
 	{
+		"name": "createFieldLevelEncryptionConfig",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront createFieldLevelEncryptionConfig CloudFront"
+	},
+	{
+		"name": "createFieldLevelEncryptionProfile",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront createFieldLevelEncryptionProfile CloudFront"
+	},
+	{
 		"name": "createInvalidation",
 		"service": "CloudFront",
 		"serviceFullName": "CloudFront",
 		"icon": "CloudFront",
 		"keywords": "CloudFront createInvalidation CloudFront"
+	},
+	{
+		"name": "createPublicKey",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront createPublicKey CloudFront"
 	},
 	{
 		"name": "createStreamingDistribution",
@@ -3330,6 +3435,27 @@
 		"serviceFullName": "CloudFront",
 		"icon": "CloudFront",
 		"keywords": "CloudFront deleteDistribution CloudFront"
+	},
+	{
+		"name": "deleteFieldLevelEncryptionConfig",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront deleteFieldLevelEncryptionConfig CloudFront"
+	},
+	{
+		"name": "deleteFieldLevelEncryptionProfile",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront deleteFieldLevelEncryptionProfile CloudFront"
+	},
+	{
+		"name": "deletePublicKey",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront deletePublicKey CloudFront"
 	},
 	{
 		"name": "deleteServiceLinkedRole",
@@ -3374,11 +3500,53 @@
 		"keywords": "CloudFront getDistributionConfig CloudFront"
 	},
 	{
+		"name": "getFieldLevelEncryption",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront getFieldLevelEncryption CloudFront"
+	},
+	{
+		"name": "getFieldLevelEncryptionConfig",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront getFieldLevelEncryptionConfig CloudFront"
+	},
+	{
+		"name": "getFieldLevelEncryptionProfile",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront getFieldLevelEncryptionProfile CloudFront"
+	},
+	{
+		"name": "getFieldLevelEncryptionProfileConfig",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront getFieldLevelEncryptionProfileConfig CloudFront"
+	},
+	{
 		"name": "getInvalidation",
 		"service": "CloudFront",
 		"serviceFullName": "CloudFront",
 		"icon": "CloudFront",
 		"keywords": "CloudFront getInvalidation CloudFront"
+	},
+	{
+		"name": "getPublicKey",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront getPublicKey CloudFront"
+	},
+	{
+		"name": "getPublicKeyConfig",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront getPublicKeyConfig CloudFront"
 	},
 	{
 		"name": "getStreamingDistribution",
@@ -3416,11 +3584,32 @@
 		"keywords": "CloudFront listDistributionsByWebACLId CloudFront"
 	},
 	{
+		"name": "listFieldLevelEncryptionConfigs",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront listFieldLevelEncryptionConfigs CloudFront"
+	},
+	{
+		"name": "listFieldLevelEncryptionProfiles",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront listFieldLevelEncryptionProfiles CloudFront"
+	},
+	{
 		"name": "listInvalidations",
 		"service": "CloudFront",
 		"serviceFullName": "CloudFront",
 		"icon": "CloudFront",
 		"keywords": "CloudFront listInvalidations CloudFront"
+	},
+	{
+		"name": "listPublicKeys",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront listPublicKeys CloudFront"
 	},
 	{
 		"name": "listStreamingDistributions",
@@ -3463,6 +3652,27 @@
 		"serviceFullName": "CloudFront",
 		"icon": "CloudFront",
 		"keywords": "CloudFront updateDistribution CloudFront"
+	},
+	{
+		"name": "updateFieldLevelEncryptionConfig",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront updateFieldLevelEncryptionConfig CloudFront"
+	},
+	{
+		"name": "updateFieldLevelEncryptionProfile",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront updateFieldLevelEncryptionProfile CloudFront"
+	},
+	{
+		"name": "updatePublicKey",
+		"service": "CloudFront",
+		"serviceFullName": "CloudFront",
+		"icon": "CloudFront",
+		"keywords": "CloudFront updatePublicKey CloudFront"
 	},
 	{
 		"name": "updateStreamingDistribution",
@@ -6111,6 +6321,20 @@
 		"keywords": "ConfigService stopConfigurationRecorder Config"
 	},
 	{
+		"name": "startOutboundVoiceContact",
+		"service": "Connect",
+		"serviceFullName": "Connect Service",
+		"icon": "aws",
+		"keywords": "Connect startOutboundVoiceContact Connect Service"
+	},
+	{
+		"name": "stopContact",
+		"service": "Connect",
+		"serviceFullName": "Connect Service",
+		"icon": "aws",
+		"keywords": "Connect stopContact Connect Service"
+	},
+	{
 		"name": "deleteReportDefinition",
 		"service": "CostandUsageReportService",
 		"serviceFullName": "Cost and Usage Report Service",
@@ -6419,6 +6643,13 @@
 		"keywords": "DeviceFarm createDevicePool Device Farm"
 	},
 	{
+		"name": "createInstanceProfile",
+		"service": "DeviceFarm",
+		"serviceFullName": "Device Farm",
+		"icon": "DeviceFarm",
+		"keywords": "DeviceFarm createInstanceProfile Device Farm"
+	},
+	{
 		"name": "createNetworkProfile",
 		"service": "DeviceFarm",
 		"serviceFullName": "Device Farm",
@@ -6452,6 +6683,13 @@
 		"serviceFullName": "Device Farm",
 		"icon": "DeviceFarm",
 		"keywords": "DeviceFarm deleteDevicePool Device Farm"
+	},
+	{
+		"name": "deleteInstanceProfile",
+		"service": "DeviceFarm",
+		"serviceFullName": "Device Farm",
+		"icon": "DeviceFarm",
+		"keywords": "DeviceFarm deleteInstanceProfile Device Farm"
 	},
 	{
 		"name": "deleteNetworkProfile",
@@ -6503,6 +6741,13 @@
 		"keywords": "DeviceFarm getDevice Device Farm"
 	},
 	{
+		"name": "getDeviceInstance",
+		"service": "DeviceFarm",
+		"serviceFullName": "Device Farm",
+		"icon": "DeviceFarm",
+		"keywords": "DeviceFarm getDeviceInstance Device Farm"
+	},
+	{
 		"name": "getDevicePool",
 		"service": "DeviceFarm",
 		"serviceFullName": "Device Farm",
@@ -6515,6 +6760,13 @@
 		"serviceFullName": "Device Farm",
 		"icon": "DeviceFarm",
 		"keywords": "DeviceFarm getDevicePoolCompatibility Device Farm"
+	},
+	{
+		"name": "getInstanceProfile",
+		"service": "DeviceFarm",
+		"serviceFullName": "Device Farm",
+		"icon": "DeviceFarm",
+		"keywords": "DeviceFarm getInstanceProfile Device Farm"
 	},
 	{
 		"name": "getJob",
@@ -6594,6 +6846,13 @@
 		"keywords": "DeviceFarm listArtifacts Device Farm"
 	},
 	{
+		"name": "listDeviceInstances",
+		"service": "DeviceFarm",
+		"serviceFullName": "Device Farm",
+		"icon": "DeviceFarm",
+		"keywords": "DeviceFarm listDeviceInstances Device Farm"
+	},
+	{
 		"name": "listDevicePools",
 		"service": "DeviceFarm",
 		"serviceFullName": "Device Farm",
@@ -6606,6 +6865,13 @@
 		"serviceFullName": "Device Farm",
 		"icon": "DeviceFarm",
 		"keywords": "DeviceFarm listDevices Device Farm"
+	},
+	{
+		"name": "listInstanceProfiles",
+		"service": "DeviceFarm",
+		"serviceFullName": "Device Farm",
+		"icon": "DeviceFarm",
+		"keywords": "DeviceFarm listInstanceProfiles Device Farm"
 	},
 	{
 		"name": "listJobs",
@@ -6734,11 +7000,25 @@
 		"keywords": "DeviceFarm stopRun Device Farm"
 	},
 	{
+		"name": "updateDeviceInstance",
+		"service": "DeviceFarm",
+		"serviceFullName": "Device Farm",
+		"icon": "DeviceFarm",
+		"keywords": "DeviceFarm updateDeviceInstance Device Farm"
+	},
+	{
 		"name": "updateDevicePool",
 		"service": "DeviceFarm",
 		"serviceFullName": "Device Farm",
 		"icon": "DeviceFarm",
 		"keywords": "DeviceFarm updateDevicePool Device Farm"
+	},
+	{
+		"name": "updateInstanceProfile",
+		"service": "DeviceFarm",
+		"serviceFullName": "Device Farm",
+		"icon": "DeviceFarm",
+		"keywords": "DeviceFarm updateInstanceProfile Device Farm"
 	},
 	{
 		"name": "updateNetworkProfile",
