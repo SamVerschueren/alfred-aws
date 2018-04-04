@@ -7,6 +7,8 @@ const aws = require('./lib/aws');
 
 const fsP = pify(fs);
 
+const iconSet = new Set();
+
 /**
  * Make sure that all the icons exist.
  */
@@ -15,7 +17,10 @@ const checkIcons = apis => {
 		return pathExists(`icons/${api.icon}.png`)
 			.then(exists => {
 				if (!exists) {
-					console.log(`Icon \`${api.icon}.png\` for service \`${api.service}\` could not be found`);
+					if (!iconSet.has(api.icon)) {
+						iconSet.add(api.icon);
+						console.log(`Icon \`${api.icon}.png\` for service \`${api.service}\` could not be found`);
+					}
 					api.icon = 'aws';
 				}
 			});
