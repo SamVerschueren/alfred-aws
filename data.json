@@ -133,6 +133,13 @@
 		"keywords": "ACM describeCertificate Certificate Manager"
 	},
 	{
+		"name": "exportCertificate",
+		"service": "ACM",
+		"serviceFullName": "Certificate Manager",
+		"icon": "ACM",
+		"keywords": "ACM exportCertificate Certificate Manager"
+	},
+	{
 		"name": "getCertificate",
 		"service": "ACM",
 		"serviceFullName": "Certificate Manager",
@@ -187,6 +194,118 @@
 		"serviceFullName": "Certificate Manager",
 		"icon": "ACM",
 		"keywords": "ACM updateCertificateOptions Certificate Manager"
+	},
+	{
+		"name": "createCertificateAuthority",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA createCertificateAuthority Certificate Manager Private Certificate Authority"
+	},
+	{
+		"name": "createCertificateAuthorityAuditReport",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA createCertificateAuthorityAuditReport Certificate Manager Private Certificate Authority"
+	},
+	{
+		"name": "deleteCertificateAuthority",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA deleteCertificateAuthority Certificate Manager Private Certificate Authority"
+	},
+	{
+		"name": "describeCertificateAuthority",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA describeCertificateAuthority Certificate Manager Private Certificate Authority"
+	},
+	{
+		"name": "describeCertificateAuthorityAuditReport",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA describeCertificateAuthorityAuditReport Certificate Manager Private Certificate Authority"
+	},
+	{
+		"name": "getCertificate",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA getCertificate Certificate Manager Private Certificate Authority"
+	},
+	{
+		"name": "getCertificateAuthorityCertificate",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA getCertificateAuthorityCertificate Certificate Manager Private Certificate Authority"
+	},
+	{
+		"name": "getCertificateAuthorityCsr",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA getCertificateAuthorityCsr Certificate Manager Private Certificate Authority"
+	},
+	{
+		"name": "importCertificateAuthorityCertificate",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA importCertificateAuthorityCertificate Certificate Manager Private Certificate Authority"
+	},
+	{
+		"name": "issueCertificate",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA issueCertificate Certificate Manager Private Certificate Authority"
+	},
+	{
+		"name": "listCertificateAuthorities",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA listCertificateAuthorities Certificate Manager Private Certificate Authority"
+	},
+	{
+		"name": "listTags",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA listTags Certificate Manager Private Certificate Authority"
+	},
+	{
+		"name": "revokeCertificate",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA revokeCertificate Certificate Manager Private Certificate Authority"
+	},
+	{
+		"name": "tagCertificateAuthority",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA tagCertificateAuthority Certificate Manager Private Certificate Authority"
+	},
+	{
+		"name": "untagCertificateAuthority",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA untagCertificateAuthority Certificate Manager Private Certificate Authority"
+	},
+	{
+		"name": "updateCertificateAuthority",
+		"service": "ACM-PCA",
+		"serviceFullName": "Certificate Manager Private Certificate Authority",
+		"icon": "aws",
+		"keywords": "ACM-PCA updateCertificateAuthority Certificate Manager Private Certificate Authority"
 	},
 	{
 		"name": "associateContactWithAddressBook",
@@ -6132,11 +6251,25 @@
 		"keywords": "ConfigService batchGetResourceConfig Config"
 	},
 	{
+		"name": "deleteAggregationAuthorization",
+		"service": "ConfigService",
+		"serviceFullName": "Config",
+		"icon": "ConfigService",
+		"keywords": "ConfigService deleteAggregationAuthorization Config"
+	},
+	{
 		"name": "deleteConfigRule",
 		"service": "ConfigService",
 		"serviceFullName": "Config",
 		"icon": "ConfigService",
 		"keywords": "ConfigService deleteConfigRule Config"
+	},
+	{
+		"name": "deleteConfigurationAggregator",
+		"service": "ConfigService",
+		"serviceFullName": "Config",
+		"icon": "ConfigService",
+		"keywords": "ConfigService deleteConfigurationAggregator Config"
 	},
 	{
 		"name": "deleteConfigurationRecorder",
@@ -6160,11 +6293,32 @@
 		"keywords": "ConfigService deleteEvaluationResults Config"
 	},
 	{
+		"name": "deletePendingAggregationRequest",
+		"service": "ConfigService",
+		"serviceFullName": "Config",
+		"icon": "ConfigService",
+		"keywords": "ConfigService deletePendingAggregationRequest Config"
+	},
+	{
 		"name": "deliverConfigSnapshot",
 		"service": "ConfigService",
 		"serviceFullName": "Config",
 		"icon": "ConfigService",
 		"keywords": "ConfigService deliverConfigSnapshot Config"
+	},
+	{
+		"name": "describeAggregateComplianceByConfigRules",
+		"service": "ConfigService",
+		"serviceFullName": "Config",
+		"icon": "ConfigService",
+		"keywords": "ConfigService describeAggregateComplianceByConfigRules Config"
+	},
+	{
+		"name": "describeAggregationAuthorizations",
+		"service": "ConfigService",
+		"serviceFullName": "Config",
+		"icon": "ConfigService",
+		"keywords": "ConfigService describeAggregationAuthorizations Config"
 	},
 	{
 		"name": "describeComplianceByConfigRule",
@@ -6195,6 +6349,20 @@
 		"keywords": "ConfigService describeConfigRules Config"
 	},
 	{
+		"name": "describeConfigurationAggregatorSourcesStatus",
+		"service": "ConfigService",
+		"serviceFullName": "Config",
+		"icon": "ConfigService",
+		"keywords": "ConfigService describeConfigurationAggregatorSourcesStatus Config"
+	},
+	{
+		"name": "describeConfigurationAggregators",
+		"service": "ConfigService",
+		"serviceFullName": "Config",
+		"icon": "ConfigService",
+		"keywords": "ConfigService describeConfigurationAggregators Config"
+	},
+	{
 		"name": "describeConfigurationRecorderStatus",
 		"service": "ConfigService",
 		"serviceFullName": "Config",
@@ -6221,6 +6389,27 @@
 		"serviceFullName": "Config",
 		"icon": "ConfigService",
 		"keywords": "ConfigService describeDeliveryChannels Config"
+	},
+	{
+		"name": "describePendingAggregationRequests",
+		"service": "ConfigService",
+		"serviceFullName": "Config",
+		"icon": "ConfigService",
+		"keywords": "ConfigService describePendingAggregationRequests Config"
+	},
+	{
+		"name": "getAggregateComplianceDetailsByConfigRule",
+		"service": "ConfigService",
+		"serviceFullName": "Config",
+		"icon": "ConfigService",
+		"keywords": "ConfigService getAggregateComplianceDetailsByConfigRule Config"
+	},
+	{
+		"name": "getAggregateConfigRuleComplianceSummary",
+		"service": "ConfigService",
+		"serviceFullName": "Config",
+		"icon": "ConfigService",
+		"keywords": "ConfigService getAggregateConfigRuleComplianceSummary Config"
 	},
 	{
 		"name": "getComplianceDetailsByConfigRule",
@@ -6272,11 +6461,25 @@
 		"keywords": "ConfigService listDiscoveredResources Config"
 	},
 	{
+		"name": "putAggregationAuthorization",
+		"service": "ConfigService",
+		"serviceFullName": "Config",
+		"icon": "ConfigService",
+		"keywords": "ConfigService putAggregationAuthorization Config"
+	},
+	{
 		"name": "putConfigRule",
 		"service": "ConfigService",
 		"serviceFullName": "Config",
 		"icon": "ConfigService",
 		"keywords": "ConfigService putConfigRule Config"
+	},
+	{
+		"name": "putConfigurationAggregator",
+		"service": "ConfigService",
+		"serviceFullName": "Config",
+		"icon": "ConfigService",
+		"keywords": "ConfigService putConfigurationAggregator Config"
 	},
 	{
 		"name": "putConfigurationRecorder",
@@ -12689,6 +12892,90 @@
 		"serviceFullName": "Kinesis Firehose",
 		"icon": "Firehose",
 		"keywords": "Firehose updateDestination Kinesis Firehose"
+	},
+	{
+		"name": "associateAdminAccount",
+		"service": "FMS",
+		"serviceFullName": "Firewall Management Service",
+		"icon": "aws",
+		"keywords": "FMS associateAdminAccount Firewall Management Service"
+	},
+	{
+		"name": "deleteNotificationChannel",
+		"service": "FMS",
+		"serviceFullName": "Firewall Management Service",
+		"icon": "aws",
+		"keywords": "FMS deleteNotificationChannel Firewall Management Service"
+	},
+	{
+		"name": "deletePolicy",
+		"service": "FMS",
+		"serviceFullName": "Firewall Management Service",
+		"icon": "aws",
+		"keywords": "FMS deletePolicy Firewall Management Service"
+	},
+	{
+		"name": "disassociateAdminAccount",
+		"service": "FMS",
+		"serviceFullName": "Firewall Management Service",
+		"icon": "aws",
+		"keywords": "FMS disassociateAdminAccount Firewall Management Service"
+	},
+	{
+		"name": "getAdminAccount",
+		"service": "FMS",
+		"serviceFullName": "Firewall Management Service",
+		"icon": "aws",
+		"keywords": "FMS getAdminAccount Firewall Management Service"
+	},
+	{
+		"name": "getComplianceDetail",
+		"service": "FMS",
+		"serviceFullName": "Firewall Management Service",
+		"icon": "aws",
+		"keywords": "FMS getComplianceDetail Firewall Management Service"
+	},
+	{
+		"name": "getNotificationChannel",
+		"service": "FMS",
+		"serviceFullName": "Firewall Management Service",
+		"icon": "aws",
+		"keywords": "FMS getNotificationChannel Firewall Management Service"
+	},
+	{
+		"name": "getPolicy",
+		"service": "FMS",
+		"serviceFullName": "Firewall Management Service",
+		"icon": "aws",
+		"keywords": "FMS getPolicy Firewall Management Service"
+	},
+	{
+		"name": "listComplianceStatus",
+		"service": "FMS",
+		"serviceFullName": "Firewall Management Service",
+		"icon": "aws",
+		"keywords": "FMS listComplianceStatus Firewall Management Service"
+	},
+	{
+		"name": "listPolicies",
+		"service": "FMS",
+		"serviceFullName": "Firewall Management Service",
+		"icon": "aws",
+		"keywords": "FMS listPolicies Firewall Management Service"
+	},
+	{
+		"name": "putNotificationChannel",
+		"service": "FMS",
+		"serviceFullName": "Firewall Management Service",
+		"icon": "aws",
+		"keywords": "FMS putNotificationChannel Firewall Management Service"
+	},
+	{
+		"name": "putPolicy",
+		"service": "FMS",
+		"serviceFullName": "Firewall Management Service",
+		"icon": "aws",
+		"keywords": "FMS putPolicy Firewall Management Service"
 	},
 	{
 		"name": "acceptMatch",
@@ -19397,6 +19684,13 @@
 		"keywords": "CloudWatch getDashboard CloudWatch"
 	},
 	{
+		"name": "getMetricData",
+		"service": "CloudWatch",
+		"serviceFullName": "CloudWatch",
+		"icon": "CloudWatch",
+		"keywords": "CloudWatch getMetricData CloudWatch"
+	},
+	{
 		"name": "getMetricStatistics",
 		"service": "CloudWatch",
 		"serviceFullName": "CloudWatch",
@@ -24129,6 +24423,111 @@
 		"keywords": "SimpleDB select SimpleDB"
 	},
 	{
+		"name": "cancelRotateSecret",
+		"service": "SecretsManager",
+		"serviceFullName": "Secrets Manager",
+		"icon": "aws",
+		"keywords": "SecretsManager cancelRotateSecret Secrets Manager"
+	},
+	{
+		"name": "createSecret",
+		"service": "SecretsManager",
+		"serviceFullName": "Secrets Manager",
+		"icon": "aws",
+		"keywords": "SecretsManager createSecret Secrets Manager"
+	},
+	{
+		"name": "deleteSecret",
+		"service": "SecretsManager",
+		"serviceFullName": "Secrets Manager",
+		"icon": "aws",
+		"keywords": "SecretsManager deleteSecret Secrets Manager"
+	},
+	{
+		"name": "describeSecret",
+		"service": "SecretsManager",
+		"serviceFullName": "Secrets Manager",
+		"icon": "aws",
+		"keywords": "SecretsManager describeSecret Secrets Manager"
+	},
+	{
+		"name": "getRandomPassword",
+		"service": "SecretsManager",
+		"serviceFullName": "Secrets Manager",
+		"icon": "aws",
+		"keywords": "SecretsManager getRandomPassword Secrets Manager"
+	},
+	{
+		"name": "getSecretValue",
+		"service": "SecretsManager",
+		"serviceFullName": "Secrets Manager",
+		"icon": "aws",
+		"keywords": "SecretsManager getSecretValue Secrets Manager"
+	},
+	{
+		"name": "listSecretVersionIds",
+		"service": "SecretsManager",
+		"serviceFullName": "Secrets Manager",
+		"icon": "aws",
+		"keywords": "SecretsManager listSecretVersionIds Secrets Manager"
+	},
+	{
+		"name": "listSecrets",
+		"service": "SecretsManager",
+		"serviceFullName": "Secrets Manager",
+		"icon": "aws",
+		"keywords": "SecretsManager listSecrets Secrets Manager"
+	},
+	{
+		"name": "putSecretValue",
+		"service": "SecretsManager",
+		"serviceFullName": "Secrets Manager",
+		"icon": "aws",
+		"keywords": "SecretsManager putSecretValue Secrets Manager"
+	},
+	{
+		"name": "restoreSecret",
+		"service": "SecretsManager",
+		"serviceFullName": "Secrets Manager",
+		"icon": "aws",
+		"keywords": "SecretsManager restoreSecret Secrets Manager"
+	},
+	{
+		"name": "rotateSecret",
+		"service": "SecretsManager",
+		"serviceFullName": "Secrets Manager",
+		"icon": "aws",
+		"keywords": "SecretsManager rotateSecret Secrets Manager"
+	},
+	{
+		"name": "tagResource",
+		"service": "SecretsManager",
+		"serviceFullName": "Secrets Manager",
+		"icon": "aws",
+		"keywords": "SecretsManager tagResource Secrets Manager"
+	},
+	{
+		"name": "untagResource",
+		"service": "SecretsManager",
+		"serviceFullName": "Secrets Manager",
+		"icon": "aws",
+		"keywords": "SecretsManager untagResource Secrets Manager"
+	},
+	{
+		"name": "updateSecret",
+		"service": "SecretsManager",
+		"serviceFullName": "Secrets Manager",
+		"icon": "aws",
+		"keywords": "SecretsManager updateSecret Secrets Manager"
+	},
+	{
+		"name": "updateSecretVersionStage",
+		"service": "SecretsManager",
+		"serviceFullName": "Secrets Manager",
+		"icon": "aws",
+		"keywords": "SecretsManager updateSecretVersionStage Secrets Manager"
+	},
+	{
 		"name": "createApplication",
 		"service": "ServerlessApplicationRepository",
 		"serviceFullName": "ServerlessApplicationRepository",
@@ -27006,11 +27405,32 @@
 		"keywords": "SWF terminateWorkflowExecution Simple Workflow Service"
 	},
 	{
+		"name": "createVocabulary",
+		"service": "TranscribeService",
+		"serviceFullName": "Transcribe Service",
+		"icon": "aws",
+		"keywords": "TranscribeService createVocabulary Transcribe Service"
+	},
+	{
+		"name": "deleteVocabulary",
+		"service": "TranscribeService",
+		"serviceFullName": "Transcribe Service",
+		"icon": "aws",
+		"keywords": "TranscribeService deleteVocabulary Transcribe Service"
+	},
+	{
 		"name": "getTranscriptionJob",
 		"service": "TranscribeService",
 		"serviceFullName": "Transcribe Service",
 		"icon": "aws",
 		"keywords": "TranscribeService getTranscriptionJob Transcribe Service"
+	},
+	{
+		"name": "getVocabulary",
+		"service": "TranscribeService",
+		"serviceFullName": "Transcribe Service",
+		"icon": "aws",
+		"keywords": "TranscribeService getVocabulary Transcribe Service"
 	},
 	{
 		"name": "listTranscriptionJobs",
@@ -27020,11 +27440,25 @@
 		"keywords": "TranscribeService listTranscriptionJobs Transcribe Service"
 	},
 	{
+		"name": "listVocabularies",
+		"service": "TranscribeService",
+		"serviceFullName": "Transcribe Service",
+		"icon": "aws",
+		"keywords": "TranscribeService listVocabularies Transcribe Service"
+	},
+	{
 		"name": "startTranscriptionJob",
 		"service": "TranscribeService",
 		"serviceFullName": "Transcribe Service",
 		"icon": "aws",
 		"keywords": "TranscribeService startTranscriptionJob Transcribe Service"
+	},
+	{
+		"name": "updateVocabulary",
+		"service": "TranscribeService",
+		"serviceFullName": "Transcribe Service",
+		"icon": "aws",
+		"keywords": "TranscribeService updateVocabulary Transcribe Service"
 	},
 	{
 		"name": "translateText",
