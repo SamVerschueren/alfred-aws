@@ -34,15 +34,15 @@
     "productivity"
   ],
   "dependencies": {
-    "alfy": "^0.6.0",
+    "alfy": "^0.7.0",
+    "pify": "^3.0.0",
     "string-occurrence": "^1.2.0"
   },
   "devDependencies": {
     "alfy-test": "^0.3.0",
     "ava": "*",
-    "aws-sdk": "^2.6.9",
+    "aws-sdk": "^2.221.1",
     "path-exists": "^3.0.0",
-    "pify": "^2.3.0",
     "xo": "*"
   }
 }
